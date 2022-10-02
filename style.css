@@ -4,7 +4,7 @@ body {
   padding: 0px;
 }
 * {
-  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  font-family: HKGroteskPro, Tahoma, Geneva, Verdana, sans-serif;
 }
 p {
   font-size: 1.1em;
@@ -329,12 +329,23 @@ header {
     align-items: center;
   }
   .divBusiness {
-    width: 50%;
+    width: 100%;
+    height: 550px;
     margin: 30px 0;
   }
   .texteBusiness h5,
   .lienBusiness {
-    text-align: center;
+    margin: 0;
+    margin-top: 30px;
+    padding: 0;
+  }
+
+  .imageBusiness{
+    height: 300px;
+    border-radius: 5px;
+  }
+  .paragrapheBusiness{
+    text-align: left;
   }
 }
 .sectionQuatre {
@@ -499,9 +510,9 @@ footer {
     padding: 0;
   }
   .divFooter {
-    width: 50%;
+    width: 100%;
     margin: 20px 0;
-    height: 500px;
+    height: 550px;
   }
   .texteFooter {
     height: 250px;
@@ -519,5 +530,8 @@ footer {
   }
   .sectionWarning{
     margin-top: 30px;
+  }
+  .imageFooter{
+    height: 300px;
   }
 }
