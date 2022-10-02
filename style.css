@@ -512,7 +512,7 @@ footer {
   .divFooter {
     width: 100%;
     margin: 20px 0;
-    height: 550px;
+    height: 850px;
   }
   .texteFooter {
     height: 250px;
@@ -532,6 +532,6 @@ footer {
     margin-top: 30px;
   }
   .imageFooter{
-    height: 300px;
+    height: 600px;
   }
 }
