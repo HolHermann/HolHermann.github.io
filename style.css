@@ -106,6 +106,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
+  width: 700px;
 }
 .desktop-menu li {
   color: black;
@@ -114,20 +115,65 @@ header {
   font-size: 1.1em;
   text-align: center;
   white-space: nowrap;
+  position: relative;
+
 }
-.desktop-menu li:hover {
+.desktop-menu a:hover {
   color: blue;
   cursor: pointer;
-  font-size: 1.15em;
+  /*font-size: 1.15em;*/
   transition-duration: 0.5s;
+}
+.sidenav li{
+  position: relative;
+}
+.sous-menu{
+  display: none;
+  position: absolute;
+  width: 80%;
+  left: -22px;
+  top: 25px;
+}
+.sous-menu li{
+  float: none;
+  width: 100%;
+  text-align: left;
+  background-color: #FFF;
+  padding: 10px 17px;
+  padding-left: 5px;
+}
+.sous-menu li:hover{
+  background-color: #325eea;
+}
+
+.desktop-menu li:hover .sous-menu{
+  display: block;
+}
+.sous-menu-mobile{
+  display: none;
+  position: absolute;
+  width: 80%;
+  left: 40%;
+}
+.sous-menu-mobile li{
+  float: none;
+  width: 30%;
+  text-align: left;
+  background-color: #FFF;
+  padding: 10px 17px;
+  padding-left: 2px;
+}
+.sidenav li:hover .sous-menu-mobile{
+  display: block;
 }
 .btn-contact {
   background-color: #325eea;
   padding: 10px 20px;
   border-radius: 5px;
   font-size: 1.1em;
-  margin-top: -3px;
   border-color: transparent;
+  margin-right: 3%;
+
 }
 .link-contact {
   color: white;
