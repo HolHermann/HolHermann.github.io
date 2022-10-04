@@ -1,0 +1,61 @@
+h1{
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+section{
+    margin: 50px 0;
+}
+.sectionTitre{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.divTitre{
+    width: 50%;
+}
+.imageTitre{
+    margin: auto;
+    margin-top: 135px;
+}
+.texteTitre{
+    margin-bottom: 40px;
+}
+.btn-armonia {
+    background-color: #325eea;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    border-color: transparent;
+    margin-right: 3%;
+}
+.btn-armonia:hover {
+    background-color: blue;
+    color: red;
+    transition-duration: 0.2s;
+    margin-top: -5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.sectionDeux{
+    text-align: center;
+}
+.sectionDeux h2{
+    font-size: 1.2em;
+    border: 1px solid black;
+}
+.sectionDeux h3{
+    font-size: 1.7em;
+    color: #325eea;
+
+}
+.blocsVignettes{
+    margin: 50px 0;
+}
