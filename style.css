@@ -146,7 +146,9 @@ header {
 .sous-menu li:hover{
   background-color: #325eea;
 }
-
+.sous-menu a:hover{
+  color: #FFF;
+}
 .desktop-menu li:hover .sous-menu{
   display: block;
 }
@@ -530,6 +532,7 @@ header {
     font-size: 1.1em;
   }
 }
+/**** FOOTER ****/
 footer {
   padding: 0px;
   padding-top: 80px;
@@ -647,3 +650,4 @@ footer {
     height: 600px;
   }
 }
+/******* FIN FOOTER ******/
