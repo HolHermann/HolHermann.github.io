@@ -66,4 +66,102 @@ section{
 }
 .youtube{
     display: block;
+    margin-top: 50px;
+}
+.sous-titreYoutube{
+    text-align: center;
+    font-size: 1em;
+    padding-bottom: 20px;
+    border-bottom:  1px solid black;
+}
+.titreEtapes{
+    font-size: 2.7em;
+    text-align: center;
+    color: #325eea;
+    margin-bottom: 50px;
+}
+.divEtapes{
+    width: 30%;
+}
+.etapesChiffre{
+    font-size: 2.7em;
+    text-align: center;
+    color: #325eea;
+    margin: 0;
+}
+.etapesTitre{
+    text-align: center;
+    font-family: 'hk_groteskbold';
+    font-size: 1.2em;
+    margin-top: 0;
+}
+.etapesParagraphe{
+    text-align: center;
+}
+.flexEtapes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btn-ouvrir{
+    background-color: #325eea;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    border-color: transparent;
+    margin: 30px 40% 10px 40%;
+}
+.btn-ouvrir:hover{
+    background-color: blue;
+    color: red;
+    margin: 20px 40% 20px 40%;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+.divLicence{
+    border: 1px solid black;
+    box-shadow: -1px 0px 10px 1px rgb(156, 156, 153);
+
+}
+.divLicence:hover{
+    box-shadow: -1px 0px 10px 3px rgb(41, 41, 39);
+    transition-duration: 1s;
+    cursor: pointer
+}
+.divLicence h5{
+    text-align: center;
+    font-size: 1.3em;
+    color: #325eea;
+    margin: 30px 0 0 0;
+    padding: 0;
+}
+.sectionLicence{
+    text-align: center;
+}
+.titreLicence{
+    font-size: 1.7em;
+    color: #325eea;
+    text-align: center;
+}
+.prixLicence{
+    font-size: 4em;
+    margin: -20px 0;
+    padding: 0px;
+}
+.btn-licence{
+    background-color: #325eea;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    border-color: transparent;
+    margin: 0px 40% 10px 40%;
+}
+.btn-licence:hover{
+    background-color: blue;
+    color: red;
+    margin: -10px 40% 20px 40%;
+    transition-duration: 0.2s;
+    cursor: pointer;
 }
