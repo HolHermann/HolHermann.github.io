@@ -165,3 +165,75 @@ section{
     transition-duration: 0.2s;
     cursor: pointer;
 }
+.titreQuestions{
+    font-size: 2em;
+    text-align: center;
+}
+.sous-titreQuestions{
+    font-size: 1em;
+    text-align: center;
+}
+.gras{
+    font-family: 'hk_groteskbold';
+}
+.faq h4{
+    color: #325eea;
+}
+.titreInscription{
+    margin: 40px 0 ;
+    font-size: 1.5em;
+    text-align: center;
+}
+.paragrapheInscription{
+    text-align: center;
+}
+.btn-inscription{
+    background-color: #325eea;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    border-color: transparent;
+    margin: 0px 0px 10px 35%;
+}
+.btn-inscription:hover{
+    background-color: blue;
+    color: red;
+    margin: -10px 0px 20px 35%;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+.divImage{
+    width: 50%;
+}
+.paddingTexte{
+    padding: 40px;
+}
+.image{
+    width: 100%;
+}
+.flexSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.paragrapheImage{
+    text-align: center;
+}
+.sectionFinal{
+    text-align: center;
+}
+.lien{
+    color: #325eea;
+}
+.lien:hover{
+    color: blue;
+    text-decoration: underline;
+}
+footer{
+    padding-top: 0px;
+}
+.sectionFooter{
+    margin-bottom: -150px;
+}

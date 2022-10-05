@@ -550,7 +550,7 @@ footer {
   border-radius: 5px;
   padding-bottom: 5px;
   box-shadow: -1px 0px 10px 1px rgb(156, 156, 153);
-  background-color: #f5f5f5;
+  background-color: #FFF;
   height: 600px;
 }
 .divFooter:hover {
