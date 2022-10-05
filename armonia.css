@@ -8,8 +8,10 @@ h2{
     padding: 0;
     margin-top: 10px;
 }
-section{
-    margin: 50px 0;
+
+@media (max-width:992px){
+    
+
 }
 .sectionTitre{
     margin-top: 40px;
@@ -44,6 +46,28 @@ section{
     margin-bottom: 5px;
     cursor: pointer;
 }
+@media (max-width:992px){
+    .sectionTitre{
+        margin: 0px;
+        flex-direction: column;
+    }
+    .divTitre{
+        margin-top: 100px;
+        width: 100%;
+    }
+    h1,h2{
+        color: blue;
+        text-align: center;
+    }
+    .divTitre a{
+        display: block;
+        text-align: center;
+    }
+    .imageTitre{
+        margin: auto;
+        padding: 50px;
+    }
+}
 .sectionDeux{
     text-align: center;
 }
@@ -59,6 +83,18 @@ section{
 .blocsVignettes{
     margin: 50px 0;
 }
+@media (max-width:992px){
+    .blocsVignettes{
+        margin: 0px;
+    }
+    .sectionVignettes{
+        margin-top: 50px;
+    }
+    .centerYoutube{
+        text-align: -webkit-center;
+    }
+}
+
 .titreVideo{
     font-size: 2em;
     text-align: center;
@@ -119,6 +155,26 @@ section{
     transition-duration: 0.2s;
     cursor: pointer;
 }
+
+@media (max-width:992px){
+    .titreEtapes{
+        font-size: 2em;
+    }
+    .flexEtapes{
+        flex-direction: column;
+    }
+    .divEtapes{
+        width: 100%;
+    }
+    .btn-ouvrir, .btn-ouvrir:hover{
+        margin: 0px;
+    }
+    .centerBtn{
+        display: block;
+        text-align: center;
+        margin: 20px 0 40px 0;
+    }
+}
 .divLicence{
     border: 1px solid black;
     box-shadow: -1px 0px 10px 1px rgb(156, 156, 153);
@@ -165,6 +221,11 @@ section{
     transition-duration: 0.2s;
     cursor: pointer;
 }
+@media (max-width:992px){
+    .btn-licence, .btn-licence:hover{
+        margin: 0px;
+    }
+}
 .titreQuestions{
     font-size: 2em;
     text-align: center;
@@ -178,6 +239,11 @@ section{
 }
 .faq h4{
     color: #325eea;
+}
+@media (max-width:992px){
+    .titreQuestions{
+        margin-top: 30px;
+    }
 }
 .titreInscription{
     margin: 40px 0 ;
@@ -232,8 +298,5 @@ section{
     text-decoration: underline;
 }
 footer{
-    padding-top: 0px;
-}
-.sectionFooter{
-    margin-bottom: -150px;
+    padding-top: 30px;
 }
