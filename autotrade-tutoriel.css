@@ -62,3 +62,8 @@ p{
 .margin-btn{
     margin-bottom: 50px;
 }
+.imageLink{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
