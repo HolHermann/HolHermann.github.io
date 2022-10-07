@@ -297,6 +297,18 @@ h2{
     color: blue;
     text-decoration: underline;
 }
+@media (max-width:992px){
+    #inscription a{
+        display: block;
+        text-align: center;
+    }
+    .btn-inscription{
+        margin: 0;
+    }
+    .btn-inscription:hover{
+        margin: 0;
+    }
+}
 footer{
     padding-top: 30px;
 }
