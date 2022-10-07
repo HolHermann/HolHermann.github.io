@@ -37,3 +37,6 @@ p{
 .gras{
     font-family: 'hk_groteskbold';
 }
+.underline{
+    text-decoration: underline;
+}
