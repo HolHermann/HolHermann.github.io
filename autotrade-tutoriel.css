@@ -40,3 +40,25 @@ p{
 .underline{
     text-decoration: underline;
 }
+.btn-inscription{
+    background-color: #325eea;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    border-color: transparent;
+}
+.btn-inscription:hover{
+    background-color: blue;
+    color: red;
+    margin: -10px 0 10px 0;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+.center-btn{
+    display: block;
+    text-align: center;
+}
+.margin-btn{
+    margin-bottom: 50px;
+}
