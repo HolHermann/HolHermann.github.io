@@ -1,0 +1,39 @@
+h1{
+    font-size: 2em;
+    margin: 40px 0;
+}
+h2{
+    color: #325eea;
+    font-size: 1.6em;
+}
+p{
+    text-align: center;
+}
+.lien{
+    color: #325eea; 
+}
+.lien:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.sectionCenter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.divCenter{
+    width: 50%;
+}
+.imgCenter{
+    width: 100%;
+}
+.texteCenter{
+    padding: 20px;
+}
+.essai{
+    width: 100%;
+}
+.gras{
+    font-family: 'hk_groteskbold';
+}
