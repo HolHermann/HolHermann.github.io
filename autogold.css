@@ -1,0 +1,116 @@
+h1{
+    padding-top: 20px;
+}
+h2{
+    font-size: 2em;
+    color: #325eea;
+}
+p{
+    text-align: center;
+}
+
+.btn-inscription{
+    background-color: #325eea;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    border-color: transparent;
+}
+.btn-inscription:hover{
+    background-color: blue;
+    color: red;
+    margin: -10px 0 10px 0;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+.center-btn{
+    display: block;
+    text-align: center;
+}
+.margin-btn{
+    margin-top: 20px;
+}
+.margin-btn:hover{
+    margin-top: 10px;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.divCenter{
+    width: 50%;
+}
+.textCenter{
+    padding-right: 30px;
+}
+.sectionDeux{
+    text-align: center;
+}
+.sectionDeux h2{
+    font-size: 1.2em;
+    border: 1px solid black;
+}
+.sectionDeux h3{
+    font-size: 1.7em;
+    color: #325eea;
+}
+.image{
+    width: 98%;
+}
+.titreEtapes{
+    font-size: 2.7em;
+    text-align: center;
+    color: #325eea;
+    margin-bottom: 50px;
+}
+.divEtapes{
+    width: 30%;
+}
+.etapesChiffre{
+    font-size: 2.7em;
+    text-align: center;
+    color: #325eea;
+    margin: 0;
+}
+.etapesTitre{
+    text-align: center;
+    font-family: 'hk_groteskbold';
+    font-size: 1.2em;
+    margin-top: 0;
+}
+.etapesParagraphe{
+    text-align: center;
+}
+.flexEtapes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btn-ouvrir{
+    background-color: #325eea;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    border-color: transparent;
+}
+.btn-ouvrir:hover{
+    background-color: blue;
+    color: red;
+    margin: -10px 0 10px 0;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+@media (max-width:992px){
+    .titreEtapes{
+        font-size: 2em;
+    }
+    .flexEtapes{
+        flex-direction: column;
+    }
+    .divEtapes{
+        width: 100%;
+    }
+}

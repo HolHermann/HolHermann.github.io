@@ -650,3 +650,27 @@ footer {
   }
 }
 /******* FIN FOOTER ******/
+/****** GENERALITE *******/
+.center{
+  text-align: center;
+}
+.center-btn{
+  display: block;
+  text-align: center;
+}
+.underline{
+  text-decoration: underline;
+}
+.gras{
+  font-family: 'hk_groteskbold';
+}
+.justify{
+  text-align: justify;
+}
+.lien{
+  color: #325eea;
+}
+.lien:hover{
+  color: blue;
+  text-decoration: underline;
+}

@@ -18,13 +18,6 @@ body{
         padding-top: 120px;
     }
 }
-.lien{
-    color: #325eea; 
-}
-.lien:hover{
-    color: blue;
-    text-decoration: underline;
-}
 .sectionCenter{
     display: flex;
     flex-direction: row;
@@ -49,9 +42,6 @@ body{
 }
 .gras{
     font-family: 'hk_groteskbold';
-}
-.underline{
-    text-decoration: underline;
 }
 .btn-inscription{
     background-color: #325eea;
