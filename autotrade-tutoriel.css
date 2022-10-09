@@ -75,11 +75,7 @@ body{
 .margin-btn{
     margin-bottom: 50px;
 }
-.imageLink{
-    width: 50%;
-    display: block;
-    margin: auto;
-}
+
 @media (max-width:992px){
     .sectionCenter{
         flex-direction: column;
