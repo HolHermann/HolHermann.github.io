@@ -12,6 +12,12 @@ p{
 body{
     min-width: auto;
 }
+@media (max-width:992px){
+    h1{
+        margin : 0px;
+        padding-top: 120px;
+    }
+}
 .lien{
     color: #325eea; 
 }
@@ -73,4 +79,15 @@ body{
     width: 50%;
     display: block;
     margin: auto;
+}
+@media (max-width:992px){
+    .sectionCenter{
+        flex-direction: column;
+    }
+    .divCenter{
+        width: 100%;
+    }
+    .imgCenter{
+        width: 100%;
+    }
 }
