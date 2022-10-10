@@ -114,3 +114,45 @@ p{
         width: 100%;
     }
 }
+.sectionTableau{
+    margin-top: 50px;
+}
+.imageCenter{
+    width: 100%;
+}
+.titreTableau{
+    color: #325eea;
+    font-size: 1.7em;
+    margin-bottom: 0px;
+}
+table
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées */
+    border: 1px solid beige;
+    width: 100%;
+    caption-side: bottom;
+    margin: 50px 0;
+}
+caption{
+    margin: 30px 0;
+}
+td,th
+{
+    
+    height: 40px;
+    width: 20%;
+    font-size: 1.1em;
+    text-align: left;
+}
+th{
+    font-family: 'hk_groteskbold';
+    font-size: 1em;
+}
+.beige{
+    background-color: #EDDBAD;
+}
+.colonneGauche{
+    padding-left: 10px;
+    font-size: 1.5em;
+    font-family: 'hk_groteskbold';
+}
