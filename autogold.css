@@ -156,3 +156,65 @@ th{
     font-size: 1.5em;
     font-family: 'hk_groteskbold';
 }
+
+.divLicence{
+    border: 1px solid black;
+    padding-bottom: 10px;
+    box-shadow: -1px 0px 10px 1px rgb(156, 156, 153);
+    width: 32%;
+}
+.tailleDiv{
+    width: 49%;
+    margin-top: 20px;
+}
+.divLicence:hover{
+    box-shadow: -1px 0px 10px 3px rgb(41, 41, 39);
+    transition-duration: 1s;
+    cursor: pointer
+}
+.divLicence h5{
+    text-align: center;
+    font-size: 1.3em;
+    color: #325eea;
+    margin: 30px 0 0 0;
+    padding: 0;
+}
+.sectionLicence{
+    text-align: center;
+}
+.titreLicence{
+    font-size: 1.7em;
+    color: #325eea;
+    text-align: center;
+}
+.prixLicence{
+    font-size: 4em;
+    margin: -20px 0;
+    padding: 0px;
+}
+.btn-licence{
+    background-color: #325eea;
+    color: #FFF;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    border-color: transparent;
+}
+.btn-licence:hover{
+    background-color: blue;
+    color: red;
+    margin: -10px 0 10px 0;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+.flexLicence{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@media (max-width:992px){
+    .btn-licence, .btn-licence:hover{
+        margin: 0px;
+    }
+}
