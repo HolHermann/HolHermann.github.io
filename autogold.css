@@ -218,3 +218,52 @@ th{
         margin: 0px;
     }
 }
+.titreQuestions{
+    font-size: 2em;
+    text-align: center;
+    margin-top: 50px;
+}
+.sous-titreQuestions{
+    font-size: 1em;
+    text-align: center;
+}
+.gras{
+    font-family: 'hk_groteskbold';
+}
+.faq h4{
+    color: #325eea;
+}
+@media (max-width:992px){
+    .titreQuestions{
+        margin-top: 30px;
+    }
+}
+.divContact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: -1px 0px 10px 1px rgb(156, 156, 153);
+    margin: 50px 0;
+    height: 200px;
+}
+.divContact:hover{
+    box-shadow: -1px 0px 10px 3px rgb(41, 41, 39);
+}
+.divContact h5{
+    font-size: 1.1em;
+}
+.divContact p{
+    padding: 0 10px;
+}
+.tailleDivContact{
+    width: 33.33%;
+}
+.divContact img{
+    width: 100%;
+    height: 200px;
+    border-radius: 0px;
+}
+.paddingContact{
+    text-align: center;
+    margin: auto;
+}
