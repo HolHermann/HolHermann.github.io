@@ -318,8 +318,12 @@ th{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: flex-end;
 }
 .flexCrypto p {
     border: 1px solid black;
     padding: 5px;
+}
+.tailleDiv33{
+    width: 33.33%;
 }
