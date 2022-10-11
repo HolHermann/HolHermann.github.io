@@ -269,3 +269,57 @@ th{
     text-align: center;
     margin: auto;
 }
+.titreInscription{
+    margin: 40px 0 ;
+    font-size: 1.5em;
+    text-align: center;
+}
+.paragrapheInscription{
+    text-align: center;
+}
+.lesEtapes{
+    color: #325eea;
+    text-decoration: underline;
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+.sous-lesEtapes{
+    font-size: 1.4em;
+    font-family: 'hk_groteskregular';
+}
+.etapesBis{
+    color: #325eea;
+    font-size: 1.6em;
+}
+.flexSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.paragrapheImage{
+    text-align: center;
+}
+.divImage{
+    width: 50%;
+}
+.paddingTexte{
+    padding: 40px;
+}
+.image{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+.red{
+    color: red;
+}
+.flexCrypto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.flexCrypto p {
+    border: 1px solid black;
+    padding: 5px;
+}
