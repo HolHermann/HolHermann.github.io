@@ -56,9 +56,7 @@ p{
     font-size: 1.7em;
     color: #325eea;
 }
-.image{
-    width: 98%;
-}
+
 .titreEtapes{
     font-size: 2.7em;
     text-align: center;
@@ -311,6 +309,11 @@ th{
     display: block;
     margin: auto;
 }
+.imageUp{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
 .red{
     color: red;
 }
@@ -329,4 +332,9 @@ th{
 }
 .textePansaka{
     font-size: 1.7em;
+}
+.espacement{
+    margin-top: 100px;
+    margin-bottom: 100px;
+
 }
