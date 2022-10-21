@@ -295,6 +295,14 @@ th{
     justify-content: space-between;
     align-items: center;
 }
+.flexSection-licence{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+
 .paragrapheImage{
     text-align: center;
 }
@@ -305,7 +313,7 @@ th{
     padding: 40px;
 }
 .image{
-    width: 50%;
+    width: 70%;
     display: block;
     margin: auto;
 }
@@ -337,4 +345,7 @@ th{
     margin-top: 100px;
     margin-bottom: 100px;
 
+}
+.taille50{
+    width: 50%;
 }
