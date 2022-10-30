@@ -10,11 +10,15 @@ p{
 }
 @media (max-width:992px){
     h1, h2{
-        margin: 0;
+        margin: 5px 0;
         padding: 0;
+        text-align: center;
+        font-size: 2em;
     }
     h1{
         padding-top: 120px;
+        margin-top: 0;
+        
     }
     .logoATG{
         width: 100%;
@@ -53,8 +57,20 @@ p{
 .divCenter{
     width: 50%;
 }
-.textCenter{
+.w{
     padding-right: 30px;
+}
+@media (max-width:992px) {
+    .margin-btn {
+        margin: 20px 0;
+    }
+    .margin-btn:hover{
+        margin: 20px 0;
+    }
+    .mobileCenter-btn{
+        display: block;
+        text-align: center;
+    }  
 }
 .sectionDeux{
     text-align: center;
@@ -361,7 +377,7 @@ th{
     width: 50%;
 }
 @media (max-width:992px){
-    .textCenter{
+    .w{
         padding-right: 0px;
     }
     .flex{
@@ -392,4 +408,44 @@ th{
     .image{
         width: 100%;
     }
+    .imageCenter{
+        width: 100%;
+    }
+    /**** TABLEAU *****/
+    th{
+        font-size: 0.8em;
+    }
+    /**** FIN TABLEAU *****/
+
+    /**** LICENCE *******/ 
+    .flexLicence{
+        flex-direction: column;
+    }
+    .divLicence{
+        width: 70%;
+        margin: 30px auto;
+        padding-bottom: 20px;
+    }
+    /***** FIN LICENCE *****/
+    /******* CONTACT ******/
+    .divContact{
+        margin: auto;
+        height: auto;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .tailleDivContact{
+        width: 100%;
+    }
+    .divContact img{
+        height: auto;
+        width: auto;
+        width: 100%;
+    }
+    .divContact p{
+        font-size: 1em;
+        padding: 0 10% 20px 10%;
+    }
+    /******* FIN CONTACT ******/
 }
