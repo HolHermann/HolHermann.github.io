@@ -456,7 +456,10 @@ th{
     /******* FIN CONTACT ******/
     h4{
         padding: 4px 0 4px 10px;
-        background-color: beige;
-        font-size: 1.2em;
+        background-color: #C3C9E0;
+        font-size: 1.5em;
+    }
+    p{
+        font-size: 1.3em;
     }
 }
