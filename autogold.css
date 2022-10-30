@@ -8,7 +8,18 @@ h2{
 p{
     text-align: center;
 }
-
+@media (max-width:992px){
+    h1, h2{
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        padding-top: 120px;
+    }
+    .logoATG{
+        width: 100%;
+    }
+}
 .btn-inscription{
     background-color: #325eea;
     color: #FFF;
@@ -348,4 +359,18 @@ th{
 }
 .taille50{
     width: 50%;
+}
+@media (max-width:992px){
+    .flex{
+        flex-direction: column;
+    }
+    .flexSection{
+        flex-direction: column;
+    }
+    .divCenter{
+        width: 100%;
+    }
+    .divImage{
+        width: 100%;
+    }
 }
