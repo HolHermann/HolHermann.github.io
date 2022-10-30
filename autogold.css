@@ -13,7 +13,7 @@ p{
         margin: 5px 0;
         padding: 0;
         text-align: center;
-        font-size: 2em;
+        font-size: 4em;
     }
     h1{
         padding-top: 120px;
@@ -393,6 +393,10 @@ th{
     .flexCrypto div{
         width: 100%;
     }
+    .flexCrypto p{
+        border: none;
+        padding: 0;
+    }
     .divCenter{
         width: 100%;
     }
@@ -465,4 +469,8 @@ th{
     p{
         font-size: 1.5em;
     }
+    .titreVignettes, .etapesTitre{
+        font-size: 1.5em;
+    }
+    
 }
