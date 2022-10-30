@@ -361,16 +361,35 @@ th{
     width: 50%;
 }
 @media (max-width:992px){
+    .textCenter{
+        padding-right: 0px;
+    }
     .flex{
         flex-direction: column;
     }
     .flexSection{
         flex-direction: column;
     }
+    .flexCrypto{
+        flex-direction: column;
+        align-items: center;
+    }
+    .flexCrypto div{
+        width: 100%;
+    }
     .divCenter{
         width: 100%;
     }
     .divImage{
+        width: 100%;
+    }
+    .tailleDiv33{
+        width: 100%;
+    }
+    .taille50{
+        width: 100%;
+    }
+    .image{
         width: 100%;
     }
 }
