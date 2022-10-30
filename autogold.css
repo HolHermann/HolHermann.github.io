@@ -396,6 +396,9 @@ th{
     .divCenter{
         width: 100%;
     }
+    .divCenter p {
+        text-align: center;
+    }
     .divImage{
         width: 100%;
     }
@@ -426,6 +429,9 @@ th{
         margin: 30px auto;
         padding-bottom: 20px;
     }
+    .divLicence p{
+        padding: 0 5%;
+    }
     /***** FIN LICENCE *****/
     /******* CONTACT ******/
     .divContact{
@@ -448,4 +454,5 @@ th{
         padding: 0 10% 20px 10%;
     }
     /******* FIN CONTACT ******/
+
 }
