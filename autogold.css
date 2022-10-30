@@ -399,6 +399,9 @@ th{
     .divCenter p {
         text-align: center;
     }
+    #justify2{
+        text-align: justify;
+    }
     .divImage{
         width: 100%;
     }
@@ -457,9 +460,9 @@ th{
     h4{
         padding: 4px 0 4px 10px;
         background-color: #C3C9E0;
-        font-size: 1.5em;
+        font-size: 1.8em;
     }
     p{
-        font-size: 1.3em;
+        font-size: 1.5em;
     }
 }
