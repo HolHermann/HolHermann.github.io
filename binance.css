@@ -1,0 +1,49 @@
+.flex{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+h1{
+    font-size: 4em;
+    margin: 0;
+    margin-top: -30px;
+    padding: 0;
+    color: #325eea;
+}
+.div50{
+    width: 50%;
+}
+.image{
+    width: 100%;
+}
+.texteTitre{
+    margin: 0;
+    margin-bottom: 20px;
+    padding-right: 40px;
+    text-align: justify;
+}
+.btn-ouvrir{
+    background-color: #325eea;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    border-color: transparent;
+}
+.btn-ouvrir:hover{
+    background-color: blue;
+    color: red;
+    margin: -10px 0 10px 0;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+.btn-color{
+    background-color: #DEE4F8 ;
+    color: #325eea;
+}
+
+.center-btn{
+    display: block;
+    text-align: center;
+}
