@@ -183,6 +183,8 @@ h2{
     .left{
         text-align: center;
     }
-    
+    .black-border{
+        border: none;
+    }
     
 }
