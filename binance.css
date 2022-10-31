@@ -127,3 +127,62 @@ h2{
     border: 1px solid black;
     text-align: center;
 }
+
+@media (max-width:992px){
+    h1{
+        text-align: center;
+    }
+    .texteTitre{
+        text-align: center;
+        margin : 30px 0 40px 0;
+    }
+    .flex{
+        padding-top: 130px;
+        flex-direction: column;
+    }
+    .flex-display, .flex-display-33{
+        flex-direction: column;
+    }
+    .div50, .div33{
+         width: 100%;
+    }
+    p{
+        text-align: center;
+    }
+    #presentation h6{
+        text-align: center;
+    }
+    .imageBinance{
+        margin-top: 50px;
+    }
+    .btn-ouvrir:hover{
+        margin: 0px;
+    }
+    .mobileCenter-btn{
+        display: block;
+        margin: auto;
+    }
+    .block-center{
+        display: block;
+        text-align: center;
+    }
+    .btn-color{
+        margin-left: 20px;
+    }
+    .btn-color:hover{
+        margin-left: 20px;
+    }
+    .margin-texte{
+        padding-left: 0;
+        margin-top: 30px;
+    }
+    .mobileCenter-btn{
+        display: block;
+        text-align: center;
+    }
+    .left{
+        text-align: center;
+    }
+    
+    
+}
