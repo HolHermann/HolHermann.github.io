@@ -125,4 +125,5 @@ h2{
 }
 .black-border{
     border: 1px solid black;
+    text-align: center;
 }
