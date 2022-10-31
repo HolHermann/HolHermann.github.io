@@ -122,6 +122,11 @@ h2{
 .sous-lesEtapes{
     font-size: 1.4em;
     font-family: 'hk_groteskregular';
+    background-color: #C3C9E0;
+    color: #325eea;
+    font-size: 1.8em;
+    padding: 5px;
+
 }
 .black-border{
     border: 1px solid black;
@@ -186,5 +191,10 @@ h2{
     .black-border{
         border: none;
     }
-    
+    .image-depot{
+        width: 80%;
+    }
+    .sous-lesEtapes{
+        text-align: center;
+    }
 }
