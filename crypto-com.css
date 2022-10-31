@@ -84,3 +84,34 @@ p{
 .image30{
     width: 30%;
 }
+@media (max-width:992px){
+    h1{
+        padding-top: 100px;
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    .sous-lesEtapes{
+        text-align: center;
+    }
+    .flex{
+        flex-direction: column;
+    }
+    .div50,.div33,.divTxID,.divTxID2{
+        width: 100%;
+    }
+    .image30{
+        width: 100%;
+    }
+    .left{
+        text-align: center;
+        padding-left: 0px;
+    }
+    .black-border{
+        border: none;
+    }
+    .image-center{
+        width: 100%;
+    }
+}
