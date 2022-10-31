@@ -114,4 +114,7 @@ p{
     .image-center{
         width: 100%;
     }
+    main{
+        background-color: green;
+    }
 }
