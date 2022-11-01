@@ -18,6 +18,35 @@ body{
         padding-top: 120px;
     }
 }
+.ul-menu-page{
+    padding: 0;
+}
+.menu-page li{
+    text-decoration: underline;
+    background-color: #DEE4F8;
+    padding: 5px;
+    box-shadow: -1px 0px 10px 1px rgb(68, 68, 63);
+    margin: 5px 0;
+}
+.menu-page li:hover{
+    box-shadow: -1px 0px 10px 3px rgb(41, 41, 39);
+    transition-duration: 1s;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.menu-page a{
+    color: #325eea;
+    font-size: 1.2em; 
+    display: block;
+    text-align: center;
+}
+.menu-page a:hover{
+    color: red;
+}
+.h5-menu{
+    font-size: 1.5em;
+    margin: 30px 0 0 0;
+}
 .sectionCenter{
     display: flex;
     flex-direction: row;
