@@ -4,8 +4,21 @@
 .espacement100{
     margin-top: 100px;
 }
+.espacement50{
+    margin-top: 50px;
+}
+.image50{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
 .image60{
     width: 60%;
+    display: block;
+    margin: auto;
+}
+.image70{
+    width: 70%;
     display: block;
     margin: auto;
 }
@@ -20,7 +33,7 @@
     margin: auto;
 }
 @media (max-width:992px){
-    .image60,.image80,.image90{
+    .image50,.image60,.image70,.image80,.image90{
         width: 100%;
     }
 }
