@@ -501,6 +501,10 @@ header {
 }
 .sectionCinq h4{
   font-size: 1.3em;
+  font-family: 'hk_groteskregular';
+  background-color: #C3C9E0;
+  color: #325eea;
+  padding: 5px;
 }
 .sectionCinq h5{
   font-size: 1.3em;
