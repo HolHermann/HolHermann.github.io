@@ -1,0 +1,74 @@
+.flex-start{
+    align-items: flex-start;
+}
+.espacement100{
+    margin-top: 100px;
+}
+.image60{
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+.image80{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+.image90{
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+@media (max-width:992px){
+    .image60,.image80,.image90{
+        width: 100%;
+    }
+}
+/****** GENERALITE *******/
+.center{
+    text-align: center;
+  }
+  .center-btn{
+    display: block;
+    text-align: center;
+  }
+  .underline{
+    text-decoration: underline;
+  }
+  .gras{
+    font-family: 'hk_groteskbold';
+  }
+  .justify{
+    text-align: justify;
+  }
+  .lien{
+    color: #325eea;
+  }
+  .lien:hover{
+    color: blue;
+    text-decoration: underline;
+  }
+  .left{
+    text-align: left;
+  }
+  .div50{
+    width: 49%;
+  }
+  .div33{
+    width: 31%;
+  }
+  .italic{
+    font-family: 'hk_groteskitalic';
+  }
+  @media (max-width:992px){
+    p{
+      font-size: 1.5em;
+    }
+  }
+/***** END *****/
+
+@media (max-width:992px){
+    .espacement100{
+        margin-top: 0;
+    }
+}

@@ -33,12 +33,13 @@ h1{
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 1.1em;
+    margin-top: 10px;
     border-color: transparent;
 }
 .btn-ouvrir:hover{
     background-color: blue;
     color: red;
-    margin: -10px 0 10px 0;
+    font-size: 1.2em;
     transition-duration: 0.2s;
     cursor: pointer;
 }
@@ -98,12 +99,16 @@ h2{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
 .flex-display-33{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
+}
+.flex-start{
+    align-items: flex-start;
 }
 .margin-texte{
     padding-left: 20px;
@@ -196,5 +201,8 @@ h2{
     }
     .sous-lesEtapes{
         text-align: center;
+    }
+    .imageUp{
+        width: 100%;
     }
 }
