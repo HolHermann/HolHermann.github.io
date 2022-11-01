@@ -212,7 +212,10 @@ th{
 .titreLicence{
     font-size: 1.7em;
     color: #325eea;
-    text-align: center;
+    text-align: left;
+}
+.texteLicence{
+    font-weight: 700;
 }
 .prixLicence{
     font-size: 4em;
