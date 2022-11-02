@@ -304,6 +304,13 @@ h2{
     .btn-inscription:hover{
         margin: 0;
     }
+    .flexSection{
+        flex-direction: column;
+    }
+    .divImage{
+        width: 100%;
+    }
+    
 }
 footer{
     padding-top: 30px;
