@@ -2,6 +2,9 @@
     color: red;
     font-size: 3em;
 }
+.sidenav ul{
+    margin-top: 100px;
+}
 #closeBtn{
-    font-size: 2em;
+    font-size: 5em;
 }
