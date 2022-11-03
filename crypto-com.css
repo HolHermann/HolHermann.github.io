@@ -109,7 +109,7 @@ p{
         width: 100%;
     }
     .image30{
-        width: 100%;
+        width: 80%;
     }
     .left{
         text-align: center;
@@ -118,7 +118,7 @@ p{
     .black-border{
         border: none;
     }
-    .image-center{
-        width: 100%;
+    .image-center,.image{
+        width: 80%;
     }
 }
