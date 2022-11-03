@@ -58,6 +58,10 @@ p{
     }
     .logoATG{
         width: 100%;
+        padding-left: 0px;
+    }
+    iframe{
+        width: 100%;
     }
 }
 .btn-inscription{
@@ -451,8 +455,8 @@ th{
     .taille50{
         width: 100%;
     }
-    .image{
-        width: 100%;
+    .image,.imageUp,.image80{
+        width: 80%;
     }
     .imageCenter{
         width: 100%;
@@ -508,5 +512,8 @@ th{
     .titreVignettes, .etapesTitre{
         font-size: 1.5em;
     }
+    .mobile80{
+        width: 80%;
+      }
     
 }
