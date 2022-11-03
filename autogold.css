@@ -61,7 +61,7 @@ p{
         padding-left: 0px;
     }
     iframe{
-        width: 100%;
+        width: 80%;
     }
 }
 .btn-inscription{
@@ -345,12 +345,6 @@ th{
 .paragrapheInscription{
     text-align: center;
 }
-.lesEtapes{
-    color: #325eea;
-    text-decoration: underline;
-    font-size: 1.3em;
-    text-transform: uppercase;
-}
 .sous-lesEtapes{
     font-size: 1.4em;
     font-family: 'hk_groteskregular';
@@ -515,5 +509,9 @@ th{
     .mobile80{
         width: 80%;
       }
+    .sous-lesEtapes h5,.etapesBis{
+        text-align: center;
+    }
+    
     
 }
