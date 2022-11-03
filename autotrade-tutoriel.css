@@ -17,6 +17,12 @@ body{
         margin : 0px;
         padding-top: 120px;
     }
+    h2{
+        padding: 4px 0 4px 10px;
+        background-color: #C3C9E0;
+        font-size: 1.8em;
+        text-align: center;
+    }
 }
 .ul-menu-page{
     padding: 0;
@@ -103,6 +109,6 @@ body{
         width: 100%;
     }
     .imgCenter{
-        width: 100%;
+        width: 80%;
     }
 }
