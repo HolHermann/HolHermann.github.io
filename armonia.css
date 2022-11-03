@@ -103,6 +103,7 @@ h2{
 .youtube{
     display: block;
     margin-top: 50px;
+    width: 90%;
 }
 .sous-titreYoutube{
     text-align: center;
@@ -238,7 +239,11 @@ h2{
     font-family: 'hk_groteskbold';
 }
 .faq h4{
+    font-size: 1.3em;
+    font-family: 'hk_groteskregular';
+    background-color: #C3C9E0;
     color: #325eea;
+    padding: 5px;
 }
 @media (max-width:992px){
     .titreQuestions{
