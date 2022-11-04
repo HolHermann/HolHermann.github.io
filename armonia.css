@@ -152,12 +152,12 @@ h2{
     border-radius: 5px;
     font-size: 1.1em;
     border-color: transparent;
-    margin: 30px 40% 10px 40%;
+    /*margin: 30px 40% 10px 40%;*/
 }
 .btn-ouvrir:hover{
     background-color: blue;
     color: red;
-    margin: 20px 40% 20px 40%;
+    /*margin: 20px 40% 20px 40%;*/
     transition-duration: 0.2s;
     cursor: pointer;
 }
@@ -175,7 +175,7 @@ h2{
     .btn-ouvrir, .btn-ouvrir:hover{
         margin: 0px;
     }
-    .centerBtn{
+    .center-btn{
         display: block;
         text-align: center;
         margin: 20px 0 40px 0;
@@ -218,12 +218,13 @@ h2{
     border-radius: 5px;
     font-size: 1.1em;
     border-color: transparent;
-    margin: 0px 40% 10px 40%;
+    margin-bottom: 20px;
 }
 .btn-licence:hover{
     background-color: blue;
     color: red;
-    margin: -10px 40% 20px 40%;
+    margin-top: -10px;
+    margin-bottom: 30px;
     transition-duration: 0.2s;
     cursor: pointer;
 }
@@ -277,10 +278,6 @@ h2{
     margin: -10px 0 10px 0;
     transition-duration: 0.2s;
     cursor: pointer;
-}
-.center-btn{
-    display: block;
-    text-align: center;
 }
 .divImage{
     width: 50%;

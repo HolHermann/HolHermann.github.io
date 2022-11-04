@@ -95,7 +95,7 @@ p{
     align-items: center;
 }
 .divCenter{
-    width: 50%;
+    width: 48%;
 }
 .w{
     padding-right: 30px;
@@ -326,7 +326,7 @@ th{
     padding: 0 10px;
 }
 .tailleDivContact{
-    width: 33.33%;
+    width: 31%;
 }
 .divContact img{
     width: 100%;
@@ -393,14 +393,14 @@ th{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 .flexCrypto p {
     border: 1px solid black;
     padding: 5px;
 }
 .tailleDiv33{
-    width: 33.33%;
+    width: 31%;
 }
 .textePansaka{
     font-size: 1.7em;
