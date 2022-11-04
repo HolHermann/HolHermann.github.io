@@ -288,9 +288,9 @@ header {
   padding: 0px 20px 0px 20px;
 }
 .premierParagraphe {
-  padding: 20px 70px;
+  padding: 20px 0px;
   font-size: 1.3em;
-  width: 70%;
+  width: 60%;
 }
 .premierParagraphe h1 {
   font-size: 2em;
@@ -300,7 +300,7 @@ header {
   font-size: 0.9em;
 }
 .premiereImage {
-  width: 30%;
+  width: 35%;
 }
 .premiereImage img {
   width: 100%;
