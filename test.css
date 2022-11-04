@@ -1,12 +1,18 @@
-.menu{
+@media (max-width:992px){
+    .menu{
     height: 150px;
-}
-.burger-icon{
-    top: 51px;
-}
-.burger-icon span{
-    height: 7px;
-}
-.premiereImage img{
+    }
+    .burger-icon{
+        top: 51px;
+    }
+    .burger-icon span{
+        height: 7px;
+    }
+    .premiereImage img{
     padding-top: 170px;
+    }
+}
+
+.caret{
+    font-size: 0.6em;
 }
