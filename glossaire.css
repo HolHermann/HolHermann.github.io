@@ -121,8 +121,9 @@
 .sous-menu-mobile{
   display: none;
   position: absolute;
-  width: 80%;
+  width: 100%;
   left: 40%;
+  top: 0;
 }
 .sous-menu-mobile li{
   float: none;
