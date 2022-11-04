@@ -1,3 +1,88 @@
+@font-face {
+  font-family: 'hk_groteskbold';
+  src: url('fonts/hkgrotesk-bold-webfont.woff2') format('woff2'),
+       url('fonts/hkgrotesk-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'hk_groteskregular';
+  src: url('fonts/hkgrotesk-regular-webfont.woff2') format('woff2'),
+       url('fonts/hkgrotesk-bold-webfont.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'hk_groteskitalic';
+  src: url('fonts/hkgrotesk-italic-webfont.woff2') format('woff2'),
+       url('fonts/hkgrotesk-italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'hk_groteskbold_italic';
+  src: url('fonts/hkgrotesk-bolditalic-webfont.woff2') format('woff2'),
+       url('fonts/hkgrotesk-bolditalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+* {
+  font-family: 'hk_groteskregular', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'hk_groteskbold';
+}
+p {
+  font-size: 1.1em;
+  line-height: 2;
+}
+li {
+  list-style-type: none;
+}
+main {
+  padding: 0 5%;
+  padding-top: 50px;
+  background-color: #FFF
+
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+header {
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid #F1F4F8;
+  z-index: 10;
+}
+@media (max-width: 992px) {
+  main {
+    padding: 0 5%;
+    margin: 0;
+  }
+  p {
+    text-align: center;
+    font-size: 1.5em;
+  }
+  a{
+    font-size: 1.5em;
+  }
+  body,
+  html,
+  header {
+    min-width: 350px;
+  }
+}
 .flex-start{
     align-items: flex-start;
 }
@@ -40,44 +125,39 @@
 /****** GENERALITE *******/
 .center{
     text-align: center;
-  }
-  .center-btn{
-    display: block;
-    text-align: center;
-  }
-  .underline{
-    text-decoration: underline;
-  }
-  .gras{
-    font-family: 'hk_groteskbold';
-  }
-  .justify{
-    text-align: justify;
-  }
-  .lien{
-    color: #325eea;
-  }
-  .lien:hover{
-    color: blue;
-    text-decoration: underline;
-  }
-  .left{
-    text-align: left;
-  }
-  .div50{
-    width: 49%;
-  }
-  .div33{
-    width: 31%;
-  }
-  .italic{
-    font-family: 'hk_groteskitalic';
-  }
-  @media (max-width:992px){
-    p{
-      font-size: 1.5em;
-    }
-  }
+}
+.center-btn{
+  display: block;
+  text-align: center;
+}
+.underline{
+  text-decoration: underline;
+}
+.gras{
+  font-family: 'hk_groteskbold';
+}
+.justify{
+  text-align: justify;
+}
+.lien{
+  color: #325eea;
+}
+.lien:hover{
+  color: blue;
+  text-decoration: underline;
+}
+.left{
+  text-align: left;
+}
+.div50{
+  width: 49%;
+}
+.div33{
+  width: 31%;
+}
+.italic{
+  font-family: 'hk_groteskitalic';
+}
 /***** END *****/
 
 @media (max-width:992px){

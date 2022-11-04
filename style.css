@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
   font-family: 'hk_groteskbold';
   src: url('fonts/hkgrotesk-bold-webfont.woff2') format('woff2'),
        url('fonts/hkgrotesk-bold-webfont.woff') format('woff');
@@ -64,8 +64,8 @@ header {
   background-color: #fff;
   border-bottom: 1px solid #F1F4F8;
   z-index: 10;
-}
-
+} */
+/*
 @media (max-width: 992px) {
   main {
     padding: 0 5%;
@@ -83,7 +83,7 @@ header {
   header {
     min-width: 350px;
   }
-}
+}*/
 .menu {
   display: flex;
   flex-direction: row;
