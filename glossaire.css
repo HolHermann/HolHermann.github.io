@@ -91,3 +91,15 @@
       width: 80%;
     }
 }
+/***** MENU MOBILE *******/
+.sidenav a{
+  font-size: 3em;
+}
+.sidenav ul{
+  margin-top: 100px;
+}
+#closeBtn{
+  font-size: 5em;
+  right: 50px;
+}
+/******** FIN MENU MOBILE **********/ 
