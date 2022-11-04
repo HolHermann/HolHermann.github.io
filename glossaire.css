@@ -300,4 +300,15 @@ header {
   font-size: 5em;
   right: 50px;
 }
+@media (max-width:992px){
+  .burger-icon{
+      top: 51px;
+  }
+  .burger-icon span{
+      height: 7px;
+  }
+}
+.caret{
+  font-size: 0.6em;
+}
 /******** FIN MENU MOBILE **********/ 

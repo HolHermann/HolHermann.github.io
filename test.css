@@ -1,5 +1,5 @@
 @media (max-width:992px){
-    .menu{
+    /*.menu{
     height: 150px;
     }
     .burger-icon{
@@ -8,10 +8,7 @@
     .burger-icon span{
         height: 7px;
     }
-    .premiereImage img{
+    /*.premiereImage img{
     padding-top: 170px;
-    }
-}
-.caret{
-    font-size: 0.6em;
+    }*/
 }

@@ -258,7 +258,7 @@ header {
     padding: 0;
     justify-content: space-between;
     min-width: 150px;
-    height: 100px;
+    height: 150px;
   }
   .btn-contact {
     margin-right: 5%;
@@ -314,7 +314,7 @@ header {
   }
   .premiereImage img {
     padding-bottom: 0px;
-    padding-top: 120px;
+    padding-top: 170px;
   }
   .premierParagraphe {
     padding: 0;
@@ -370,6 +370,9 @@ header {
     width: 75%;
     margin: 30px 0;
   }
+  .titreVignettes {
+    font-size: 1.4em;
+  }
 }
 
 .divBusiness {
@@ -389,6 +392,7 @@ header {
 }
 .texteBusiness h5 {
   font-size: 1.3em;
+  text-align: center;
 }
 .texteBusiness a {
   color: blue;

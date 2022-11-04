@@ -52,7 +52,7 @@ h2{
         flex-direction: column;
     }
     .divTitre{
-        margin-top: 100px;
+        margin-top: 150px;
         width: 100%;
     }
     h1,h2{
@@ -83,6 +83,10 @@ h2{
 .blocsVignettes{
     margin: 50px 0;
 }
+.centerYoutube{
+    width: 50%;
+    margin: auto;
+}
 @media (max-width:992px){
     .blocsVignettes{
         margin: 0px;
@@ -92,6 +96,7 @@ h2{
     }
     .centerYoutube{
         text-align: -webkit-center;
+        width: 70%;
     }
 }
 
