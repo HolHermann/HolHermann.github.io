@@ -646,7 +646,7 @@ footer {
   }
   .texteFooter h5 {
     text-align: center;
-    height: 45px;
+    /*height: 45px;*/
   }
   .sectionFooter {
     margin-bottom: 0px;
@@ -663,6 +663,9 @@ footer {
   }
   .paragrapheMilieu{
     font-size: 1.5em;
+  }
+  .copyright p{
+    font-size: 1.7em;
   }
 }
 /******* FIN FOOTER ******/
