@@ -592,6 +592,7 @@ footer {
 }
 .texteFooter h5 {
   font-size: 1.1em;
+  text-align: center;
 }
 .paragrapheFooter {
   height: 60px;
@@ -647,10 +648,6 @@ footer {
   }
   .texteFooter {
     height: 250px;
-  }
-  .texteFooter h5 {
-    text-align: center;
-    /*height: 45px;*/
   }
   .sectionFooter {
     margin-bottom: 0px;
