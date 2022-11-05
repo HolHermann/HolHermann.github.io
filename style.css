@@ -88,7 +88,7 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin: 0;
   height: 80px;
 }
@@ -670,3 +670,8 @@ footer {
   }
 }
 /******* FIN FOOTER ******/
+@media (min-width:992px){
+  .navigation{
+    margin-right: 3%;
+  }
+}
