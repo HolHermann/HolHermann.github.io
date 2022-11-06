@@ -79,6 +79,9 @@ p{
     transition-duration: 0.2s;
     cursor: pointer;
 }
+.btn-prix-licence{
+    padding: 5px 10px;
+}
 .center-btn{
     display: block;
     text-align: center;
