@@ -264,9 +264,6 @@ header {
     margin-right: 5%;
   }
   
-  .titre {
-    margin-left: 10%;
-  }
 }
 @media (max-width: 500px) {
   .titre {
