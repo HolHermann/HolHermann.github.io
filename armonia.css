@@ -8,10 +8,8 @@ h2{
     padding: 0;
     margin-top: 10px;
 }
-
-@media (max-width:992px){
-    
-
+.divTitre h2{
+    color: #325eea;
 }
 .sectionTitre{
     margin-top: 40px;
@@ -55,7 +53,10 @@ h2{
         margin-top: 150px;
         width: 100%;
     }
-    h1,h2{
+    h1{
+        text-align: center;
+    }
+    h2{
         color: blue;
         text-align: center;
     }
@@ -66,6 +67,7 @@ h2{
     .imageTitre{
         margin: auto;
         padding: 50px;
+        width: 70%;
     }
 }
 .sectionDeux{
@@ -83,9 +85,17 @@ h2{
 .blocsVignettes{
     margin: 50px 0;
 }
-.centerYoutube{
-    width: 50%;
-    margin: auto;
+
+.titreVideo{
+    font-size: 2em;
+    text-align: center;
+    color: #325eea;
+}
+.sous-titreYoutube{
+    text-align: center;
+    font-size: 1em;
+    padding-bottom: 20px;
+    border-bottom:  1px solid black;
 }
 @media (max-width:992px){
     .blocsVignettes{
@@ -94,27 +104,6 @@ h2{
     .sectionVignettes{
         margin-top: 50px;
     }
-    .centerYoutube{
-        text-align: -webkit-center;
-        width: 70%;
-    }
-}
-
-.titreVideo{
-    font-size: 2em;
-    text-align: center;
-    color: #325eea;
-}
-.youtube{
-    display: block;
-    margin-top: 50px;
-    width: 90%;
-}
-.sous-titreYoutube{
-    text-align: center;
-    font-size: 1em;
-    padding-bottom: 20px;
-    border-bottom:  1px solid black;
 }
 .titreEtapes{
     font-size: 2.7em;
@@ -184,6 +173,7 @@ h2{
 .divLicence{
     border: 1px solid black;
     box-shadow: -1px 0px 10px 1px rgb(156, 156, 153);
+    padding-bottom: 20px;
 
 }
 .divLicence:hover{
