@@ -65,6 +65,10 @@ header {
   border-bottom: 1px solid #F1F4F8;
   z-index: 10;
 }
+ul{
+  margin: 0;
+  padding: 0;
+}
 .button{
   background-color: #325eea;
       border: none;
@@ -82,6 +86,25 @@ header {
   color: red; 
   transition-duration: 0.2s;
 }
+.btn-menu{
+  font-size: 1.2em;
+}
+.btn-menu:hover{
+  color: #FFF;
+}
+.titre {
+  color: blue;
+  font-size: 1.2em;
+}
+.titre:hover {
+  cursor: pointer;
+}
+@media (min-width:992px){
+  .menu{
+      padding: 0 2%;
+      justify-content: space-evenly;
+  }
+}
 @media (max-width: 992px) {
   main {
     padding: 0 5%;
@@ -98,6 +121,15 @@ header {
   html,
   header {
     min-width: 350px;
+  }
+  .button{
+    font-size: 1.5em;
+  }
+  .navigation{
+      padding: 0 5%;
+  }
+  .titre{
+      font-size: 1.5em;
   }
 }
 .flex-start{
@@ -232,20 +264,6 @@ header {
 }
 .sidenav li:hover .sous-menu-mobile{
   display: block;
-}
-.btn-contact {
-  background-color: #325eea;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-size: 1.1em;
-  border-color: transparent;
-  margin-right: 3%;
-}
-
-.btn-contact:hover {
-  background-color: blue;
-  cursor: pointer;
 }
 .sidenav {
   height: 100%;

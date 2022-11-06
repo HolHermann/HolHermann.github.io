@@ -92,16 +92,6 @@ header {
   margin: 0;
   height: 80px;
 }
-.titre {
-  color: blue;
-  font-size: 1.2em;
-}
-.titre:hover {
-  color: blue;
-  cursor: pointer;
-  font-size: 1.2em;
-  transition-duration: 0.5s;
-}
 .desktop-menu {
   display: flex;
   flex-direction: row;
@@ -169,21 +159,6 @@ header {
 }
 .sidenav li:hover .sous-menu-mobile{
   display: block;
-}
-.btn-contact {
-  background-color: #325eea;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-size: 1.1em;
-  border-color: transparent;
-  margin-right: 3%;
-}
-.link-contact {
-  color: white;
-}
-.btn-contact:hover {
-  background-color: blue;
-  cursor: pointer;
 }
 .sidenav {
   height: 100%;
@@ -259,21 +234,6 @@ header {
     justify-content: space-between;
     min-width: 150px;
     height: 150px;
-  }
-  .btn-contact {
-    margin-right: 5%;
-  }
-  
-}
-@media (max-width: 500px) {
-  .titre {
-    margin-left: 20px;
-  }
-  .burger-icon {
-    right: 5%;
-  }
-  .btn-contact {
-    visibility: hidden;
   }
 }
 
@@ -664,11 +624,5 @@ footer {
   }
   .copyright p{
     font-size: 1.7em;
-  }
-}
-/******* FIN FOOTER ******/
-@media (min-width:992px){
-  .navigation{
-    margin-right: 3%;
   }
 }
