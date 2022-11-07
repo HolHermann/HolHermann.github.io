@@ -48,15 +48,14 @@ h1{
     transition-duration: 0.2s;
     cursor: pointer;
 }
-.btn-color{
-    background-color: #DEE4F8 ;
+.btn-tuto{
+    background-color: #DEE4F8;
     color: #325eea;
 }
-.btn-color:hover{
+.btn-tuto:hover{
     background-color: #dee4f8af;
     color: #325eea;
 }
-
 .center-btn{
     display: block;
     text-align: center;
@@ -144,6 +143,7 @@ h2{
 .image-depot{
     width: 70%;
 }
+
 @media (max-width:992px){
     h1{
         text-align: center;
@@ -182,10 +182,10 @@ h2{
         display: block;
         text-align: center;
     }
-    .btn-color{
+    .btn-tuto{
         margin-left: 20px;
     }
-    .btn-color:hover{
+    .btn-tuto:hover{
         margin-left: 20px;
     }
     .margin-texte{
