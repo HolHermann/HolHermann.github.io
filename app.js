@@ -9,6 +9,7 @@ allCross.forEach((element) => {
 
     // console.log(this.src);
     if (this.src.includes("croix")) {
+      //   this.src = "/ressources/minus.svg";
       this.src = "/images/logoSite/minus.svg";
       gsap.to(currentChoice, {
         duration: 0.2,
@@ -17,6 +18,7 @@ allCross.forEach((element) => {
         padding: "20px 15px",
       });
     } else if (this.src.includes("minus")) {
+      //   this.src = "/ressources/croix.svg";
       this.src = "/images/logoSite/croix.svg";
       gsap.to(currentChoice, {
         duration: 0.2,
