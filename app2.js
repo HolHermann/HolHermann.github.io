@@ -10,21 +10,16 @@ allQuestions.forEach((element) => {
       gsap.to(currentChoice, {
         duration: 0.2,
         height: height + 40,
-        // opacity: 1,
         padding: "20px 15px",
         visibilily: "visible",
         visibility: "visible",
-        // background: "transparent",
       });
     } else if (this.childNodes[3].src.includes("up")) {
       this.childNodes[3].src = "/images/logoSite/chevron-down-solid.svg";
       gsap.to(currentChoice, {
         duration: 0.2,
         height: 0,
-        // opacity: 0,
         padding: "0px 15px",
-        // margin: "auto",
-        // background: "red",
         visibility: "hidden",
       });
     }
