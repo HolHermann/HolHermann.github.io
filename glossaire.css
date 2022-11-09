@@ -468,12 +468,14 @@ ul{
   margin: 0;
   font-size: 1.3em;
   font-weight: bold;
+  text-align: left;
 }
 .texteSupport{
   color: #4F6590;
   padding: 0;
   margin: 0;
   font-size: 1em;
+  text-align: left;
 }
 @media (max-width:992px){
   .visible-pannel,.titre-faq{
