@@ -1,6 +1,6 @@
-const allCross = document.querySelectorAll(".visible-pannel");
+const allQuestions = document.querySelectorAll(".visible-pannel");
 
-allCross.forEach((element) => {
+allQuestions.forEach((element) => {
   element.addEventListener("click", function () {
     const height = this.parentNode.childNodes[3].scrollHeight;
     const currentChoice = this.parentNode.childNodes[3];
