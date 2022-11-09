@@ -96,3 +96,15 @@ p{
     background-color: #EDF8F5;
     letter-spacing: 2px;
 }
+@media (max-width:992px){
+    .visible-pannel,.titre-faq{
+        height: 120px;
+        font-size: 1.5em;
+    }
+    .toggle-pannel h6{
+        font-size: 1.5em;
+    }
+    .toggle-pannel p{
+        text-align: left;
+    }
+}
