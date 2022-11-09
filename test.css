@@ -102,7 +102,7 @@ p{
         font-size: 1.5em;
     }
     .visible-pannel h5{
-        width: 70%;
+        width: 65%;
         margin-left: 50px;
     }
     .visible-pannel img{
@@ -121,5 +121,8 @@ p{
     .titre-faq h4{
         margin-left: 50px;
         width: 60%;
+    }
+    .titre-faq p{
+        width: 35%;
     }
 }
