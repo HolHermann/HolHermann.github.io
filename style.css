@@ -245,7 +245,68 @@
     font-size: 1.4em;
   }
 }
+/* VIGNETTES  */
+.flex-Vignettes{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.divVignettes{
+  width: 31%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  position: relative;
+  margin: 20px 0;
+  box-shadow: 0 1.5rem 4rem rgba(22,28,45,.05)!important;
+}
+.divVignettes:hover{
+  box-shadow: 0 1.5rem 4rem rgba(22, 28, 45, 0.095)!important;
 
+}
+.divVignettes img{
+  border-radius: 10px 10px 0 0;
+  height: 220px;
+}
+.texte-Vignettes{
+  padding: 40px;
+  padding-top: 15px;
+  border-radius: 0 0 10px 10px;
+  background-color: #FFF;
+}
+.texte-Vignettes h4{
+  font-size: 1.3em;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
+  position: relative;
+  z-index: 8;
+}
+.lien-vignettes:hover{
+  text-decoration: none;
+}
+@media (max-width:992px){
+  .flex-Vignettes{
+      flex-direction: column;
+  }
+  .divVignettes{
+      width: 100%;
+      margin: 50px 0;
+  }
+  .texte-Vignettes{
+      padding: 100px;
+  }
+  .texte-Vignettes h4{
+      font-size: 1.8em;
+  }
+  .texte-Vignettes p{
+      text-align: left;
+  }
+  .divVignettes img{
+      height: 600px;
+  }
+}
+/* FIN VIGNETTES */
 .divBusiness {
   width: 30%;
   height: 550px;
