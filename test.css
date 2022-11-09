@@ -3,3 +3,30 @@
         font-size: 1.8em;
     }
 }
+.divSupport{
+    box-shadow: -1px 0px 10px 1px rgb(231, 231, 228);
+    padding: 30px 50px;
+}
+.divSupport p{
+    margin: 0;
+    padding: 0;
+}
+.titreSupport{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.texteSupport{
+    color: #4F6590;
+    font-size: 1em;
+}
+@media (max-width:992px){
+    .divSupport{
+        padding: 40px 30px;
+    }
+    .titreSupport{
+        font-size: 1.7em;
+    }
+    .texteSupport{
+        font-size: 1.5em;
+    }
+}
