@@ -58,4 +58,7 @@
     .texte-Vignettes p{
         text-align: left;
     }
+    .divVignettes img{
+        height: 400px;
+    }
 }
