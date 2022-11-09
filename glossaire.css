@@ -463,16 +463,16 @@ ul{
   padding: 30px 50px;
   margin: 20px auto;
 }
-.divSupport p{
-  margin: 0;
-  padding: 0;
-}
 .titreSupport{
+  padding: 0;
+  margin: 0;
   font-size: 1.3em;
   font-weight: bold;
 }
 .texteSupport{
   color: #4F6590;
+  padding: 0;
+  margin: 0;
   font-size: 1em;
 }
 @media (max-width:992px){
@@ -510,8 +510,11 @@ ul{
   }
   .titreSupport{
       font-size: 1.7em;
+      text-align: left;
+      padding-bottom: 20px;
   }
   .texteSupport{
       font-size: 1.5em;
+      text-align: left;
   }
 }
