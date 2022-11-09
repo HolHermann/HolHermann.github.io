@@ -1,25 +1,20 @@
-const allCross = document.querySelectorAll(".visible-pannel img");
-console.log(allCross);
+const allCross = document.querySelectorAll(".visible-pannel");
 
 allCross.forEach((element) => {
   element.addEventListener("click", function () {
-    const height = this.parentNode.parentNode.childNodes[3].scrollHeight;
+    const height = this.parentNode.childNodes[3].scrollHeight;
+    const currentChoice = this.parentNode.childNodes[3];
 
-    const currentChoice = this.parentNode.parentNode.childNodes[3];
-
-    // console.log(this.src);
-    if (this.src.includes("croix")) {
-      //   this.src = "/ressources/minus.svg";
-      this.src = "/images/logoSite/minus.svg";
+    if (this.childNodes[3].src.includes("down")) {
+      this.childNodes[3].src = "/images/logoSite/chevron-up-solid.svg";
       gsap.to(currentChoice, {
         duration: 0.2,
         height: height + 40,
         opacity: 1,
         padding: "20px 15px",
       });
-    } else if (this.src.includes("minus")) {
-      //   this.src = "/ressources/croix.svg";
-      this.src = "/images/logoSite/croix.svg";
+    } else if (this.childNodes[3].src.includes("up")) {
+      this.childNodes[3].src = "/images/logoSite/chevron-down-solid.svg";
       gsap.to(currentChoice, {
         duration: 0.2,
         height: 0,
