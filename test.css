@@ -1,4 +1,4 @@
-.button{
+.btn-prix-licence{
     background: #EAEEFD;
     color: #325eea;
     padding: .8125rem 1.25rem;
@@ -6,7 +6,7 @@
     font-size: 1.0625rem;
     margin-bottom: 20px;
 }
-.button:hover{
+.btn-prix-licence:hover{
     background-color: rgba(51,94,234,.15);
     color: #325eea;
 }
