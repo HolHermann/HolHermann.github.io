@@ -515,6 +515,9 @@ th{
     .sous-lesEtapes h5,.etapesBis{
         text-align: center;
     }
-    
-    
+    .titre-faq h4{
+        padding: 0;
+        background-color: transparent;
+        font-size: 1em;
+    } 
 }

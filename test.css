@@ -21,3 +21,28 @@
 .divLicence p{
     padding: 0px 9px;
 }
+.divLicence h5{
+    background-color: #EAEEFD;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'hk_groteskregular';
+}
+.dollar{
+    font-size: 30px;
+}
+.div-prixLicence{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    /* font-size: 70px; */
+    margin: 0;
+    padding: 0;
+}
+.divLicence p{
+    margin-top: 0;
+}
