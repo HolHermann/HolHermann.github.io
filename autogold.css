@@ -230,23 +230,60 @@ th{
 .divLicence{
     border: 1px solid black;
     padding-bottom: 10px;
-    box-shadow: -1px 0px 10px 1px rgb(156, 156, 153);
     width: 32%;
+    box-shadow: 0 1.5rem 4rem rgba(22,28,45,.1)!important;
 }
 .tailleDiv{
     width: 49%;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 .divLicence:hover{
     box-shadow: -1px 0px 10px 3px rgb(41, 41, 39);
     transition-duration: 1s;
-    cursor: pointer
 }
 .divLicence h5{
     text-align: center;
-    font-size: 1.3em;
     color: #325eea;
     margin: 30px 0 0 0;
+    /* TEST CSS */
+    background-color: #EAEEFD;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'hk_groteskregular';
+}
+.btn-prix-licence{
+    background: #EAEEFD;
+    color: #325eea;
+    padding: .8125rem 1.25rem;
+    border: 1px solid transparent;
+    font-size: 1.0625rem;
+    margin-bottom: 20px;
+}
+.btn-prix-licence:hover{
+    background-color: rgba(51,94,234,.15);
+    color: #325eea;
+}
+.dollar{
+    font-size: 30px;
+}
+.div-prixLicence{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 70px; */
+    margin: 0;
+    padding: 0;
+}
+.divLicence p{
+    padding: 0px 9px;
+    margin-top: 0;
+}
+p.prixLicence{
     padding: 0;
 }
 .sectionLicence{
@@ -475,6 +512,9 @@ th{
     }
     .divLicence p{
         padding: 0 5%;
+    }
+    p.prixLicence{
+        padding: 0;
     }
     /***** FIN LICENCE *****/
     /******* CONTACT ******/

@@ -1,47 +1,46 @@
 .btn-prix-licence{
-    background: #EAEEFD;
+    /* background: #EAEEFD;
     color: #325eea;
     padding: .8125rem 1.25rem;
     border: 1px solid transparent;
     font-size: 1.0625rem;
-    margin-bottom: 20px;
+    margin-bottom: 20px; */
 }
 .btn-prix-licence:hover{
-    background-color: rgba(51,94,234,.15);
-    color: #325eea;
+    /* background-color: rgba(51,94,234,.15);
+    color: #325eea; */
 }
 .divLicence{
-    box-shadow: 0 1.5rem 4rem rgba(22,28,45,.1)!important;
-    border: 1px solid black;
+    /* box-shadow: 0 1.5rem 4rem rgba(22,28,45,.1)!important;
+    border: 1px solid black; */
 }
 .tailleDiv{
-    margin-top: 25px;
-    /* padding: 10px; */
+    /* margin-top: 25px; */
 }
 .divLicence p{
-    padding: 0px 9px;
+    /* padding: 0px 9px; */
 }
 .divLicence h5{
-    background-color: #EAEEFD;
+    /* background-color: #EAEEFD;
     display: inline-block;
     padding: 5px 10px;
     border-radius: 20px;
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-family: 'hk_groteskregular';
+    font-family: 'hk_groteskregular'; */
 }
 .dollar{
     font-size: 30px;
 }
 .div-prixLicence{
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
     /* font-size: 70px; */
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
 }
 .divLicence p{
     margin-top: 0;
