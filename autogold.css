@@ -324,9 +324,6 @@ p.prixLicence{
     flex-wrap: wrap;
 }
 @media (max-width:992px){
-    .btn-licence, .btn-licence:hover{
-        margin: 0px;
-    }
     .divLicence h5{
         font-size: 25px;
         padding: 10px 30px;
