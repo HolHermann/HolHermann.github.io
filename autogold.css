@@ -79,9 +79,6 @@ p{
     transition-duration: 0.2s;
     cursor: pointer;
 }
-.btn-prix-licence{
-    padding: 5px 10px;
-}
 .center-btn{
     display: block;
     text-align: center;
@@ -242,6 +239,9 @@ th{
     transition-duration: 1s;
 }
 .divLicence h5{
+    font-size: 25px;
+        padding: 10px 30px;
+        margin-top: 80px;
     text-align: center;
     color: #325eea;
     margin: 30px 0 0 0;
@@ -326,6 +326,15 @@ p.prixLicence{
 @media (max-width:992px){
     .btn-licence, .btn-licence:hover{
         margin: 0px;
+    }
+    .divLicence h5{
+        font-size: 25px;
+        padding: 10px 30px;
+        margin-top: 80px;
+    }
+    .btn-prix-licence{
+        font-size: 30px;
+        padding: 20px 60px;
     }
 }
 .titreQuestions{
@@ -506,12 +515,19 @@ p.prixLicence{
         flex-direction: column;
     }
     .divLicence{
-        width: 70%;
+        width: 100%;
+        height: 550px;
         margin: 30px auto;
         padding-bottom: 20px;
     }
     .divLicence p{
         padding: 0 5%;
+    }
+    .prixLicence{
+        font-size: 100px;
+    }
+    .texte-Licence{
+        font-size: 30px;
     }
     p.prixLicence{
         padding: 0;
