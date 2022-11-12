@@ -160,16 +160,16 @@
 }
 .premierParagraphe {
   padding: 20px 0px;
-  font-size: 1.3em;
+  /* font-size: 1.3em; */
   width: 60%;
 }
 .premierParagraphe h1 {
   font-size: 2em;
   font-weight: 500;
 }
-.premierParagraphe p {
+/* .premierParagraphe p {
   font-size: 0.9em;
-}
+} */
 .premiereImage {
   width: 35%;
 }
