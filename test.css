@@ -15,3 +15,8 @@
     font-size: 2.7em;
     margin: 0;
 }
+@media (max-width:992px){
+    .bulle-avantage{
+        font-size: 1.5em;
+    }
+}
