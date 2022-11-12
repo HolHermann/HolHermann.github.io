@@ -1,0 +1,15 @@
+main{
+    text-align: center;
+}
+h1{
+    color: #325eea;
+    font-size: 3em;
+}
+p{
+    font-size: 2em;
+}
+@media (max-width:992px){
+    main{
+        padding-top: 150px;
+    }
+}

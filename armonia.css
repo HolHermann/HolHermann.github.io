@@ -69,14 +69,23 @@ h2{
 .sectionDeux{
     text-align: center;
 }
-.sectionDeux h2{
-    font-size: 1.2em;
-    border: 1px solid black;
-}
 .sectionDeux h3{
-    font-size: 1.7em;
     color: #325eea;
-
+    font-size: 2.7em;
+    margin: 0;
+}
+.bulle-avantage{
+    display: inline-block;
+    background-color: rgba(66,186,150,.1);
+    color: #42ba96;
+    border-radius: 20px;
+    border: none;
+    font-size: 1em;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'hk_groteskregular'; 
+    margin: 30px 0 0 0;
 }
 .blocsVignettes{
     margin: 50px 0;
@@ -99,6 +108,9 @@ h2{
     }
     .sectionVignettes{
         margin-top: 50px;
+    }
+    .bulle-avantage{
+        font-size: 1.5em;
     }
 }
 .titreEtapes{
