@@ -1,6 +1,21 @@
 @media (max-width:992px){
     .divLicence{
         width: 100%;
-        height: 380px;
+        height: 550px;
     }
+    .prixLicence{
+        font-size: 100px;
+    }
+    .texte-Licence{
+        font-size: 30px;
+    }
+    .divLicence h5{
+        font-size: 25px;
+        padding: 10px 30px;
+    }
+    .btn-prix-licence{
+        font-size: 30px;
+        padding: 20px 60px;
+    }
+
 }
