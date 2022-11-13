@@ -226,11 +226,8 @@ table{
 }
 .flex-inscription{
     display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-}
-.flex-inscription img{
-    width: 100%;
+    flex-direction: row-reverse;
+    align-items: center;
 }
 .div-inscription{
     width: 50%;
@@ -244,12 +241,25 @@ table{
     padding: 2px 15px;
     margin-bottom: 10px;
 }
-.div-inscription h3{
+.h3-inscription{
     font-size: 2em;
     margin-bottom: 15px;
 }
 .blue-1{
     margin: 0;
+}
+.div-gauche{
+    padding-left: 50px;
+}
+.imgCenter{
+    width: 80%;
+    display: block;
+    margin:  auto;
+
+}
+.titre-licence{
+    font-size: 2em;
+    margin-bottom: 50px;
 }
 @media (max-width:992px){
     .flex{
@@ -313,5 +323,11 @@ table{
     }
     .size2{
         font-size: 1.8em;
+    }
+    .div-gauche{
+        padding-left: 0;
+    }
+    .flex-inscription img{
+        width: 100%;
     }
 }

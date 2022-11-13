@@ -1,1 +1,9 @@
 RewriteEngine On RewriteCond %{ENV:HTTPS} !on RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# Redirection avec les directives RewriteCond et RewriteRule
+# Si la page demandée n'est pas un fichier
+RewriteCond % !-f
+# Si elle n'est pas non plus un répertoire
+RewriteCond % !-d
+# On redirige vers la page d'erreur personnalisée.
+RewriteRule ^(.*)$ https://newbusinessonline.ovh/404.html [L]
