@@ -1,4 +1,10 @@
-main{
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* main{
+    padding-top: 100px;
     text-align: center;
 }
 h1{
@@ -8,8 +14,240 @@ h1{
 p{
     font-size: 2em;
 }
+img{
+    width: 250px;
+     
+}*/
 @media (max-width:992px){
     main{
         padding-top: 150px;
     }
+}
+/* DEBUT CODAGE OFFICIEL  */
+main{
+    padding-top: 100px;
+}
+h1{
+    font-size: 4em;
+    color: #325eea;
+}
+h2{
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.div-titre-page{
+    width: 55%;
+}
+.div-titre-image{
+    width: 35%;
+}
+
+.img-logo{
+    width: 100%;
+    padding-top: 70px;
+}
+.btn-turbo1{
+    margin-top: 20px;
+}
+.introduction-prix{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top: 3px solid blue;
+    box-shadow: 0 1.5rem 4rem rgba(22,28,45,.05)!important;
+}
+.div-introduction{
+    text-align: center;
+    border-right: 1px solid #F1F4F8;
+    padding: 10px;
+    width: 49%;
+}
+.last-div{
+    border: none;
+}
+.prix-introduction{
+    font-size: 30px;
+}
+.texte-introduction{
+    font-size: 1em;
+}
+.bulle-avantage{
+    display: inline-block;
+    background-color: rgba(66,186,150,.1);
+    color: #42ba96;
+    border-radius: 20px;
+    border: none;
+    font-size: 1em;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'hk_groteskregular'; 
+    margin: 30px 0 0 0;
+    text-align: center;
+}
+
+@media(max-width:992px){
+    .bulle-avantage{
+        font-size: 1.5em;
+    }
+}
+
+.center-bulle{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.titre-support{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.texte-support{
+    text-align: center;
+}
+.sectionVignettes{
+    margin: 50px 0;
+}
+.bis{
+    background-color: rgba(51,94,234,.1);
+    color: #335eea;
+}
+.div-image-myfx{
+    width: 49%;
+}
+.titre-myfx{
+    font-size: 2em;
+    margin: 20px 0 0 0;
+}
+.div-mxfx{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    width: 50%;
+}
+.cellule-myfx{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 20px 0;
+}
+.chiffre-myfx{
+    width: 5%;
+    padding-top: 14px;
+    padding-right: 50px;
+}
+.texte-myfx{
+    /* width: 70%; */
+}
+.flex-myfx{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-myfx img{
+    width: 100%;
+}
+.chiffre-myfx span{
+    background-color: #EAEEFD;
+    color: #325EEA;
+    padding: 5px 12px;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+.titre-texte-myfx{
+    color: #325eea;
+}
+.titreLicence{
+    font-size: 1.7em;
+    color: #325eea;
+    text-align: left;
+}
+.ul-licence{
+    margin-top: 10px;
+}
+.list-licence{
+    list-style-type: initial;
+    margin-left: 50px;
+}
+.colonneGauche{
+    padding-left: 40px;
+    font-family: 'hk_groteskbold';
+    width: 30%;
+}
+.colonneDroite{
+    text-align: left;
+}
+tr{
+    height: 80px;
+    width: 100%;
+    /* background-color: red; */
+}
+td,th{
+    text-align: left;
+    width: 15%;
+}
+
+.color-cellule{
+    background-color: #F8FBFD;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.blue{
+    color: blue;
+    font-family: 'hk_groteskbold';
+    margin-right: 5px;
+}
+.divTableau{
+    margin: 100px 0;
+}
+.signe-valider{
+    background-color: #EAEEFD;
+    color: #325EEA;
+    border-radius: 20px;
+    padding: 5px 9px;
+    margin-right: 20px;
+}
+.flex-valider{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 20px 0 20px 40px;
+    font-size: 0.9em;
+
+}
+.flex-inscription{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.flex-inscription img{
+    width: 100%;
+}
+.div-inscription{
+    width: 50%;
+}
+.etapes-inscription{
+    display: inline-block;
+    background-color: rgba(51,94,234,.1);
+    color: #335eea;
+    font-size: 0.7em;
+    letter-spacing: 2px;
+    padding: 2px 15px;
+    margin-bottom: 10px;
+}
+.div-inscription h3{
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+.blue-1{
+    margin: 0;
 }
