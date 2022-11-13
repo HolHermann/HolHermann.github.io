@@ -251,3 +251,30 @@ table{
 .blue-1{
     margin: 0;
 }
+@media (max-width:992px){
+    .flex{
+        flex-direction: column;
+        padding-top: 60px;
+    }
+    .div-titre-page,.div-titre-image{
+        width: 100%;
+    }
+    h1,h2{
+        text-align: center;
+    }
+    .btn-turbo1{
+        text-align: center;
+    }
+    .bulle-avantage{
+        font-size: 1em;
+    }
+    .flex-myfx{
+        flex-direction: column;
+    }
+    .div-image-myfx,.div-mxfx{
+        width: 100%;
+    }
+    .cellule-myfx{
+        justify-content: flex-start;
+    }
+}
