@@ -294,11 +294,21 @@ table{
     }
     .flex-valider{
         align-items: baseline;
+        margin-left: 100px;
     }
     .left-mobile{
         text-align: left;
     }
     .mobile-justify{
         text-align: justify;
+    }
+    .texte-myfx p{
+        text-align: left;
+    }
+    .lien{
+        font-size: 1em;
+    }
+    .mobile-margin50{
+        margin: 50px 0;
     }
 }
