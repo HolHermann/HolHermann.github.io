@@ -311,4 +311,7 @@ table{
     .mobile-margin50{
         margin: 50px 0;
     }
+    .size2{
+        font-size: 1.8em;
+    }
 }
