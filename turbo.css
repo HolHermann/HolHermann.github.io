@@ -8,7 +8,7 @@
     text-align: center;
 }
 h1{
-    color: #325eea;
+    color: var(--lightblue);
     font-size: 3em;
 }
 p{
@@ -29,7 +29,7 @@ main{
 }
 h1{
     font-size: 4em;
-    color: #325eea;
+    color: var(--lightblue);
 }
 h2{
     font-size: 1.8em;
@@ -156,17 +156,17 @@ h2{
 }
 .chiffre-myfx span{
     background-color: #EAEEFD;
-    color: #325EEA;
+    color: var(--lightblue);
     padding: 5px 12px;
     border-radius: 20px;
     margin-top: 100px;
 }
 .titre-texte-myfx{
-    color: #325eea;
+    color: var(--lightblue);
 }
 .titreLicence{
     font-size: 1.7em;
-    color: #325eea;
+    color: var(--lightblue);
     text-align: left;
 }
 .ul-licence{
@@ -187,7 +187,6 @@ h2{
 tr{
     height: 80px;
     width: 100%;
-    /* background-color: red; */
 }
 td,th{
     text-align: left;
@@ -211,7 +210,7 @@ table{
 }
 .signe-valider{
     background-color: #EAEEFD;
-    color: #325EEA;
+    color: var(--lightblue);
     border-radius: 20px;
     padding: 5px 9px;
     margin-right: 20px;

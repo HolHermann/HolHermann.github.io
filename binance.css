@@ -9,7 +9,7 @@ h1{
     margin: 0;
     margin-top: -30px;
     padding: 0;
-    color: #325eea;
+    color: var(--lightblue);
 }
 .image{
     width: 100%;
@@ -33,7 +33,7 @@ h1{
     text-align: justify;
 }
 .btn-ouvrir{
-    background-color: #325eea;
+    background-color: var(--lightblue);
     color: #FFF;
     padding: 10px 20px;
     border-radius: 5px;
@@ -42,19 +42,19 @@ h1{
     border-color: transparent;
 }
 .btn-ouvrir:hover{
-    background-color: blue;
-    color: red;
+    background-color: var(--bluebtn);
+    color: var(--redbtn);
     font-size: 1.2em;
     transition-duration: 0.2s;
     cursor: pointer;
 }
 .btn-tuto{
     background-color: #DEE4F8;
-    color: #325eea;
+    color: var(--lightblue);
 }
 .btn-tuto:hover{
     background-color: #dee4f8af;
-    color: #325eea;
+    color: var(--lightblue);
 }
 .center-btn{
     display: block;
@@ -68,7 +68,7 @@ h2{
     font-family: 'hk_groteskregular';
 }
 .h2-color{
-    color: #325eea;
+    color: var(--lightblue);
 }
 .ul-menu-page{
     padding: 0;
@@ -87,7 +87,7 @@ h2{
     margin-left: 20px;
 }
 .menu-page a{
-    color: #325eea;
+    color: var(--lightblue);
     font-size: 1.2em; 
     display: block;
     text-align: center;
@@ -125,13 +125,13 @@ h2{
     font-size: 1.5em;
 }
 .etapesBis{
-    color: #325eea;
+    color: var(--lightblue);
     font-size: 1.6em;
 }
 .sous-lesEtapes{
     font-family: 'hk_groteskregular';
     background-color: #C3C9E0;
-    color: #325eea;
+    color: var(--lightblue);
     font-size: 1.8em;
     padding: 5px;
 

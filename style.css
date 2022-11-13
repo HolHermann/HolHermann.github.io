@@ -26,114 +26,9 @@
 .desktop-menu a:hover {
   color: blue;
   cursor: pointer;
-  /*font-size: 1.15em;*/
   transition-duration: 0.5s;
 }
-/*
-.sidenav li{
-  position: relative;
-}
-.sous-menu{
-  display: none;
-  position: absolute;
-  width: 80%;
-  left: -22px;
-  top: 25px;
-}
-.sous-menu li{
-  float: none;
-  width: 100%;
-  text-align: left;
-  background-color: #FFF;
-  padding: 10px 17px;
-  padding-left: 5px;
-}
-.sous-menu li:hover{
-  background-color: #325eea;
-}
-.sous-menu a:hover{
-  color: #FFF;
-}
-.desktop-menu li:hover .sous-menu{
-  display: block;
-}
-.sous-menu-mobile{
-  display: none;
-  position: absolute;
-  width: 80%;
-  left: 40%;
-}
-.sous-menu-mobile li{
-  float: none;
-  width: 30%;
-  text-align: left;
-  background-color: #FFF;
-  padding: 10px 17px;
-  padding-left: 2px;
-}
-.sidenav li:hover .sous-menu-mobile{
-  display: block;
-}
-.sidenav {
-  height: 100%;
-  width: 100%;
-  text-align: center;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  right: -100%;
-  background-color: #e8e8e8;
-  padding-top: 60px;
-  transition: left 0.5s ease;
-}
-
-.sidenav ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-/* Sidenav menu links */ /*
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidenav a:hover {
-  color: #111;
-}
-
-/* Active class */ /*
-.sidenav.active {
-  right: 0;
-}
-
-/* Close btn */ /*
-.sidenav .close {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-}
-
-.burger-icon span {
-  display: block;
-  width: 35px;
-  height: 6px;
-  background-color: blue;
-  margin: 6px 0;
-}
-.burger-icon {
-  position: absolute;
-  right: 30%;
-  top: 26px;
-}
 /***** RESPONSIVE HEADER *******/
-
 @media (min-width: 992px) {
   #openBtn {
     visibility: hidden;
@@ -448,7 +343,7 @@
   font-size: 1.3em;
   font-family: 'hk_groteskregular';
   background-color: #C3C9E0;
-  color: #325eea;
+  color: var(--lightblue);
   padding: 5px;
 }
 .sectionCinq h5{

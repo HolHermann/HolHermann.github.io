@@ -3,7 +3,7 @@ h1{
 }
 h2{
     font-size: 2em;
-    color: #325eea;
+    color: var(--lightblue);
 }
 p{
     text-align: center;
@@ -32,7 +32,7 @@ p{
     margin-left: 20px;
 }
 .menu-page a{
-    color: #325eea;
+    color: var(--lightblue);
     font-size: 1.2em; 
     display: block;
     text-align: center;
@@ -65,7 +65,7 @@ p{
     }
 }
 .btn-inscription{
-    background-color: #325eea;
+    background-color: var(--lightblue);
     color: #FFF;
     padding: 10px 20px;
     border-radius: 5px;
@@ -73,8 +73,8 @@ p{
     border-color: transparent;
 }
 .btn-inscription:hover{
-    background-color: blue;
-    color: red;
+    background-color: var(--bluebtn);
+    color: var(--redbtn);
     margin: -10px 0 10px 0;
     transition-duration: 0.2s;
     cursor: pointer;
@@ -98,7 +98,7 @@ p{
     text-align: center;
 }
 .sectionDeux h3{
-    color: #325eea;
+    color: var(--lightblue);
     font-size: 2.7em;
     margin: 0;
 }
@@ -118,7 +118,7 @@ p{
 .titreEtapes{
     font-size: 2.7em;
     text-align: center;
-    color: #325eea;
+    color: var(--lightblue);
     margin-bottom: 50px;
 }
 .divEtapes{
@@ -127,7 +127,7 @@ p{
 .etapesChiffre{
     font-size: 2.7em;
     text-align: center;
-    color: #325eea;
+    color: var(--lightblue);
     margin: 0;
 }
 .etapesTitre{
@@ -145,7 +145,7 @@ p{
     justify-content: space-between;
 }
 .btn-ouvrir{
-    background-color: #325eea;
+    background-color: var(--lightblue);
     color: #FFF;
     padding: 10px 20px;
     border-radius: 5px;
@@ -153,8 +153,8 @@ p{
     border-color: transparent;
 }
 .btn-ouvrir:hover{
-    background-color: blue;
-    color: red;
+    background-color: var(--bluebtn);
+    color: var(--redbtn);
     margin: -10px 0 10px 0;
     transition-duration: 0.2s;
     cursor: pointer;
@@ -182,7 +182,7 @@ p{
     margin: auto;
 }
 .titreTableau{
-    color: #325eea;
+    color: var(--lightblue);
     font-size: 1.7em;
     margin-bottom: 0px;
 }
@@ -237,10 +237,10 @@ th{
         padding: 10px 30px;
         margin-top: 80px;
     text-align: center;
-    color: #325eea;
+    color: var(--lightblue);
     margin: 30px 0 0 0;
     /* TEST CSS */
-    background-color: #EAEEFD;
+    background-color: var(--lightbluelicence);
     display: inline-block;
     padding: 5px 10px;
     border-radius: 20px;
@@ -250,8 +250,8 @@ th{
     font-family: 'hk_groteskregular';
 }
 .btn-prix-licence{
-    background: #EAEEFD;
-    color: #325eea;
+    background: var(--lightbluelicence);
+    color: var(--lightblue);
     padding: .8125rem 1.25rem;
     border: 1px solid transparent;
     font-size: 1.0625rem;
@@ -259,7 +259,7 @@ th{
 }
 .btn-prix-licence:hover{
     background-color: rgba(51,94,234,.15);
-    color: #325eea;
+    color: var(--lightblue);
 }
 .dollar{
     font-size: 30px;
@@ -285,7 +285,7 @@ p.prixLicence{
 }
 .titreLicence{
     font-size: 1.7em;
-    color: #325eea;
+    color: var(--lightblue);
     text-align: left;
 }
 .texteLicence{
@@ -297,7 +297,7 @@ p.prixLicence{
     padding: 0px;
 }
 .btn-licence{
-    background-color: #325eea;
+    background-color: var(--lightblue);
     color: #FFF;
     padding: 5px 10px;
     border-radius: 5px;
@@ -305,8 +305,8 @@ p.prixLicence{
     border-color: transparent;
 }
 .btn-licence:hover{
-    background-color: blue;
-    color: red;
+    background-color: var(--bluebtn);
+    color: var(--redbtn);
     margin: -10px 0 10px 0;
     transition-duration: 0.2s;
     cursor: pointer;
@@ -341,7 +341,7 @@ p.prixLicence{
     font-family: 'hk_groteskbold';
 }
 .faq h4{
-    color: #325eea;
+    color: var(--lightblue);
 }
 @media (max-width:992px){
     .titreQuestions{
@@ -390,7 +390,7 @@ p.prixLicence{
     font-family: 'hk_groteskregular';
 }
 .etapesBis{
-    color: #325eea;
+    color: var(--lightblue);
     font-size: 1.6em;
 }
 .flexSection{

@@ -3,7 +3,7 @@ h1{
     margin: 40px 0;
 }
 h2{
-    color: #325eea;
+    color: var(--lightblue);
     font-size: 1.6em;
 }
 p{
@@ -41,7 +41,7 @@ body{
     margin-left: 20px;
 }
 .menu-page a{
-    color: #325eea;
+    color: var(--lightblue);
     font-size: 1.2em; 
     display: block;
     text-align: center;
@@ -79,7 +79,7 @@ body{
     font-family: 'hk_groteskbold';
 }
 .btn-inscription{
-    background-color: #325eea;
+    background-color: var(--lightblue);
     color: #FFF;
     padding: 10px 20px;
     border-radius: 5px;
@@ -87,8 +87,8 @@ body{
     border-color: transparent;
 }
 .btn-inscription:hover{
-    background-color: blue;
-    color: red;
+    background-color: var(--bluebtn);
+    color: var(--redbtn);
     margin: -10px 0 10px 0;
     transition-duration: 0.2s;
     cursor: pointer;

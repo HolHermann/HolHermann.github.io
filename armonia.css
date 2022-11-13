@@ -9,7 +9,7 @@ h2{
     margin-top: 10px;
 }
 .divTitre h2{
-    color: #325eea;
+    color: var(--lightblue);
 }
 .sectionTitre{
     margin-top: 40px;
@@ -28,7 +28,7 @@ h2{
     margin-bottom: 40px;
 }
 .btn-armonia {
-    background-color: #325eea;
+    background-color: var(--lightblue);
     color: #FFF;
     padding: 10px 20px;
     border-radius: 5px;
@@ -37,8 +37,8 @@ h2{
     margin-right: 3%;
 }
 .btn-armonia:hover {
-    background-color: blue;
-    color: red;
+    background-color: var(--bluebtn);
+    color: var(--redbtn);
     transition-duration: 0.2s;
     margin-top: -5px;
     margin-bottom: 5px;
@@ -70,7 +70,7 @@ h2{
     text-align: center;
 }
 .sectionDeux h3{
-    color: #325eea;
+    color: var(--lightblue);
     font-size: 2.7em;
     margin: 0;
 }
@@ -94,7 +94,7 @@ h2{
 .titreVideo{
     font-size: 2em;
     text-align: center;
-    color: #325eea;
+    color: var(--lightblue);
 }
 .sous-titreYoutube{
     text-align: center;
@@ -116,7 +116,7 @@ h2{
 .titreEtapes{
     font-size: 2.7em;
     text-align: center;
-    color: #325eea;
+    color: var(--lightblue);
     margin-bottom: 50px;
 }
 .divEtapes{
@@ -125,7 +125,7 @@ h2{
 .etapesChiffre{
     font-size: 2.7em;
     text-align: center;
-    color: #325eea;
+    color: var(--lightblue);
     margin: 0;
 }
 .etapesTitre{
@@ -143,18 +143,16 @@ h2{
     justify-content: space-between;
 }
 .btn-ouvrir{
-    background-color: #325eea;
+    background-color: var(--lightblue);
     color: #FFF;
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 1.1em;
     border-color: transparent;
-    /*margin: 30px 40% 10px 40%;*/
 }
 .btn-ouvrir:hover{
-    background-color: blue;
-    color: red;
-    /*margin: 20px 40% 20px 40%;*/
+    background-color: var(--bluebtn);
+    color: var(--redbtn);
     transition-duration: 0.2s;
     cursor: pointer;
 }
@@ -194,7 +192,7 @@ h2{
 .divLicence h5{
     text-align: center;
     font-size: 1.3em;
-    color: #325eea;
+    color: var(--lightblue);
     margin: 30px 0 0 0;
     padding: 0;
 }
@@ -204,7 +202,7 @@ h2{
 }
 .titreLicence{
     font-size: 1.7em;
-    color: #325eea;
+    color: var(--lightblue);
     text-align: center;
 }
 .prixLicence{
@@ -213,8 +211,8 @@ h2{
     padding: 0px;
 }
 .btn-prix-licence{
-    background: #EAEEFD;
-    color: #325eea;
+    background: var(--lightbluelicence);
+    color: var(--lightblue);
     padding: .8125rem 1.25rem;
     border: 1px solid transparent;
     font-size: 1.0625rem;
@@ -222,17 +220,17 @@ h2{
 }
 .btn-prix-licence:hover{
     background-color: rgba(51,94,234,.15);
-    color: #325eea;
+    color: var(--lightblue);
 }
 .divLicence h5{
     font-size: 25px;
         padding: 10px 30px;
         margin-top: 80px;
     text-align: center;
-    color: #325eea;
+    color: var(--lightblue);
     margin: 30px 0 0 0;
     /* TEST CSS */
-    background-color: #EAEEFD;
+    background-color: var(--lightbluelicence);
     display: inline-block;
     padding: 5px 10px;
     border-radius: 20px;
@@ -282,7 +280,7 @@ h2{
     font-size: 1.3em;
     font-family: 'hk_groteskregular';
     background-color: #C3C9E0;
-    color: #325eea;
+    color: var(--lightblue);
     padding: 5px;
 }
 @media (max-width:992px){

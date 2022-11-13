@@ -1,22 +1,5 @@
-.bulle-avantage{
-    display: inline-block;
-    background-color: rgba(66,186,150,.1);
-    color: #42ba96;
-    border-radius: 20px;
-    border: none;
-    font-size: 1em;
-    padding: 5px 15px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-family: 'hk_groteskregular'; 
-    margin: 30px 0 0 0;
-}
-.sectionDeux h3{
-    font-size: 2.7em;
-    margin: 0;
-}
-@media (max-width:992px){
-    .bulle-avantage{
-        font-size: 1.5em;
-    }
+h1{
+    background-color: orange;
+    background-color: #EAEEFD;
+    background-color: var(--lightbluelicence);
 }
