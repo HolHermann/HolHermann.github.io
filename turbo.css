@@ -259,7 +259,7 @@ table{
     .div-titre-page,.div-titre-image{
         width: 100%;
     }
-    h1,h2{
+    h1,h2,h3{
         text-align: center;
     }
     .btn-turbo1{
@@ -276,5 +276,17 @@ table{
     }
     .cellule-myfx{
         justify-content: flex-start;
+    }
+    .flex-inscription{
+        flex-direction: column;
+    }
+    .div-inscription{
+        width: 100%;
+    }
+    .flex-valider{
+        align-items: baseline;
+    }
+    .left-mobile{
+        text-align: left;
     }
 }
