@@ -265,6 +265,9 @@ table{
     .btn-turbo1{
         text-align: center;
     }
+    .introduction-prix{
+        flex-direction: column;
+    }
     .bulle-avantage{
         font-size: 1em;
     }
@@ -288,5 +291,8 @@ table{
     }
     .left-mobile{
         text-align: left;
+    }
+    .mobile-justify{
+        text-align: justify;
     }
 }
