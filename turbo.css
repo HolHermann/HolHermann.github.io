@@ -97,7 +97,6 @@ h2{
         font-size: 1.5em;
     }
 }
-
 .center-bulle{
     text-align: center;
     margin-bottom: 10px;
@@ -225,10 +224,14 @@ table{
 }
 .flex-inscription{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
 .div-inscription{
+    width: 45%;
+}
+.div-inscription-img{
     width: 50%;
 }
 .etapes-inscription{
@@ -260,6 +263,9 @@ table{
     font-size: 2em;
     margin-bottom: 50px;
 }
+.image100{
+    width: 100%;
+}
 @media (max-width:992px){
     .flex{
         flex-direction: column;
@@ -283,6 +289,9 @@ table{
     .texte-introduction{
         font-size: 2em;
     }
+    .div-introduction{
+        border-right: none;
+    }
     .bulle-avantage{
         font-size: 1em;
     }
@@ -299,6 +308,9 @@ table{
         flex-direction: column;
     }
     .div-inscription{
+        width: 100%;
+    }
+    .div-inscription-img{
         width: 100%;
     }
     .flex-valider{
@@ -328,5 +340,8 @@ table{
     }
     .flex-inscription img{
         width: 100%;
+    }
+    .supp-margin-left{
+        margin-left: 0;
     }
 }
