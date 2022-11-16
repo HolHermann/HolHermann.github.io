@@ -23,6 +23,13 @@
     padding: 0;
     margin: 0;
 }
+/* .sous-menu-border1{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.sous-menu-border2{
+    border-top: 2px solid black;
+} */
 .menu-deroulant li{
     padding: 10px 0;
 }
