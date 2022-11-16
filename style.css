@@ -28,6 +28,13 @@
   cursor: pointer;
   transition-duration: 0.5s;
 }
+.sous-menu li{
+  text-align: left;
+  padding-left: 20px;
+}
+.sous-menu a:hover{
+  color: #FFF;
+}
 /***** RESPONSIVE HEADER *******/
 @media (min-width: 992px) {
   #openBtn {
