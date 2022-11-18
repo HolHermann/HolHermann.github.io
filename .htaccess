@@ -6,4 +6,4 @@ RewriteCond % !-f
 # Si elle n'est pas non plus un répertoire
 RewriteCond % !-d
 # On redirige vers la page d'erreur personnalisée.
-RewriteRule ^(.*)$ https://newbusinessonline.ovh/404.html [L]
+RewriteRule ^(.*)$ https://newbusinessonline.fr/404.html [L]
