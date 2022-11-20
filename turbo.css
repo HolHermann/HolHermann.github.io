@@ -345,3 +345,11 @@ table{
         margin-left: 0;
     }
 }
+
+/* CHANGEMENT DE LA POLICE  */
+@media (max-width:992px){
+    .colonneGauche,.blue{
+        font-family: 'hk_groteskbold';
+        font-weight: 100; 
+    }
+}

@@ -75,9 +75,6 @@ body{
 .essai{
     width: 100%;
 }
-.gras{
-    font-family: 'hk_groteskbold';
-}
 .btn-inscription{
     background-color: var(--lightblue);
     color: #FFF;

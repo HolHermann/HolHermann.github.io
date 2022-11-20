@@ -273,9 +273,6 @@ h2{
     font-size: 1em;
     text-align: center;
 }
-.gras{
-    font-family: 'hk_groteskbold';
-}
 .faq h4{
     font-size: 1.3em;
     font-family: 'hk_groteskregular';
@@ -327,4 +324,11 @@ h2{
 }
 footer{
     padding-top: 30px;
+}
+/* CHANGEMENT DE LA POLICE */
+@media (max-width:992px){
+    .etapesTitre{
+        font-family: 'hk_groteskbold';
+        font-weight: 100; 
+    }
 }

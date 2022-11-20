@@ -337,9 +337,6 @@ p.prixLicence{
     font-size: 1em;
     text-align: center;
 }
-.gras{
-    font-family: 'hk_groteskbold';
-}
 .faq h4{
     color: var(--lightblue);
 }
@@ -567,4 +564,11 @@ p.prixLicence{
         background-color: transparent;
         font-size: 1em;
     } 
+}
+/* CHANGEMENT DE LA POLICE  */
+@media (max-width:992px){
+    .etapesTitre,th,.colonneGauche{
+        font-family: 'hk_groteskbold';
+        font-weight: 100; 
+    }
 }
