@@ -1,35 +1,3 @@
-.desktop-menu{
-    /* justify-content: space-evenly; */
-}
-.sous-menu-mobile li{
-    /* background-color: transparent; */
-}
-.menu-enfant a{
-    /* padding-left: 0; */
-}
-.sous-menu{
-    /* border: 2px solid black;
-    margin-left: 40px;
-    width: 100%; */
-}
-.sous-menu li{
-    /* padding: 0;
-    margin: 0; */
-}
-.menu-deroulant li{
-    /* padding: 10px 0; */
-}
-.menu-deroulant{
-    /* padding-left: 20px; */
-}
-.menu-deroulant a{
-    /* padding-left: 10px; */
-}
-@media (max-width:992px){
-    .menu-deroulant:hover{
-        /* margin-bottom: 350px; */
-    }
-}
 @media (max-width:992px){
     h1,h2,h3,h4,h5,h6{
         font-family: Arial, Helvetica, sans-serif;
