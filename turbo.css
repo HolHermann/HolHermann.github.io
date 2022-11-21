@@ -250,9 +250,6 @@ table{
 .blue-1{
     margin: 0;
 }
-.div-gauche{
-    padding-left: 50px;
-}
 .imgCenter{
     width: 80%;
     display: block;
@@ -265,6 +262,23 @@ table{
 }
 .image100{
     width: 100%;
+}
+.list-retrait{
+    list-style-type: initial;
+    margin-left: 50px;
+}
+.jaune{
+    padding: 17px;
+    background-color: #FAD776;
+}
+.flex-start{
+    align-items: flex-start;
+}
+.textDiv{
+    margin-top: 150px;
+}
+.image-backOffice{
+    /* margin-top: 200px; */
 }
 @media (max-width:992px){
     .flex{
