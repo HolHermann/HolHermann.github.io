@@ -536,6 +536,10 @@ ul{
       font-size: 1.5em;
       text-align: left;
   }
+  #texteWarning{
+    text-align: justify;
+    margin-top: 10px;
+  }
 }
 /* CHANGEMENT DE LA POLICE  */
 @media (max-width:992px){
