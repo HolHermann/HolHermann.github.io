@@ -329,7 +329,7 @@ table{
     }
     .flex-valider{
         align-items: baseline;
-        margin-left: 100px;
+        /* margin-left: 100px; */
     }
     .left-mobile{
         text-align: left;
@@ -357,6 +357,9 @@ table{
     }
     .supp-margin-left{
         margin-left: 0;
+    }
+    .signe-valider{
+        margin-right: 50px;
     }
 }
 
