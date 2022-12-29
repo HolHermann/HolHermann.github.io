@@ -87,6 +87,13 @@ table{
 .divFlex2{
     display: flex;
     flex-direction: row;
+    align-items: center;
+}
+.div50{
+    width: 50%;
+}
+.paddingDroite{
+    padding-right: 40px;
 }
 .margin50{
     margin-top: 50px;
@@ -131,6 +138,11 @@ table{
     }
     .divFlex2{
         flex-direction: column;
+    }
+    .div50{
+        width: 100%;
+    }.paddingDroite{
+        padding-right: 0px;
     }
 }
 
