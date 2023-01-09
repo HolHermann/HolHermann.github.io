@@ -149,6 +149,10 @@ table{
     }.paddingDroite{
         padding-right: 0px;
     }
+    .imagebis{
+        height: 90%;
+        padding-left: 0px;
+    }
 }
 
 
@@ -213,10 +217,10 @@ table{
     .bulle-avantage{
         font-size: 1.5em;
     }
-    .mobile-left{
-        text-align: left;
-    }
     p{
         text-align: justify;
+    }
+    .mobile-left{
+        text-align: left;
     }
 }
