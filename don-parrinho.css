@@ -76,6 +76,11 @@ table{
 .image{
     width: 100%;
 }
+.image40{
+    width: 40%;
+    display: block;
+    margin: auto;
+}
 .flex-affiliation{
     display: flex;
     flex-direction: row;
@@ -151,5 +156,65 @@ table{
 @media (max-width:992px){
     .mobile-left{
         text-align: left;
+    }
+}
+
+
+/* MEnu */ 
+.ul-menu-page{
+    padding: 0;
+}
+.menu-page li{
+    text-decoration: underline;
+    background-color: #DEE4F8;
+    padding: 5px;
+    box-shadow: -1px 0px 10px 1px rgb(68, 68, 63);
+    margin: 5px 0;
+}
+.menu-page li:hover{
+    box-shadow: -1px 0px 10px 3px rgb(41, 41, 39);
+    transition-duration: 1s;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.menu-page a{
+    color: var(--lightblue);
+    font-size: 1.2em; 
+    display: block;
+    text-align: center;
+}
+.menu-page a:hover{
+    color: red;
+}
+.h5-menu{
+    font-size: 1.5em;
+    margin: 30px 0 0 0;
+}
+
+/* Bulle avantages */ 
+.sectionDeux{
+    text-align: center;
+}
+.sectionDeux h3{
+    color: var(--lightblue);
+    font-size: 2.7em;
+    margin: 0;
+}
+.bulle-avantage{
+    display: inline-block;
+    background-color: rgba(66,186,150,.1);
+    color: #42ba96;
+    border-radius: 20px;
+    border: none;
+    font-size: 1em;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'hk_groteskregular'; 
+    margin: 30px 0 0 0;
+}
+@media (max-width:992px){
+    .bulle-avantage{
+        font-size: 1.5em;
     }
 }
