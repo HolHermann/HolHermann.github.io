@@ -153,11 +153,7 @@ table{
 
 
 
-@media (max-width:992px){
-    .mobile-left{
-        text-align: left;
-    }
-}
+
 
 
 /* MEnu */ 
@@ -216,5 +212,11 @@ table{
 @media (max-width:992px){
     .bulle-avantage{
         font-size: 1.5em;
+    }
+    .mobile-left{
+        text-align: left;
+    }
+    p{
+        text-align: justify;
     }
 }
